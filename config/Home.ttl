@@ -1,0 +1,32 @@
+@prefix stage: <http://kadaster.localhost/stage#>.
+@prefix elmo: <http://bp4mc2.org/elmo/def#>.
+@prefix html: <http://www.w3.org/1999/xhtml/vocab#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+#stage:Home a elmo:Representation;
+#	elmo:url-pattern "^http://kadaster.localhost:8080(|/)$";
+#	elmo:index "1";
+#	elmo:contains stage:Menu;
+#	elmo:appearance elmo:HtmlAppearance;
+#	elmo:data [
+#		rdfs:label "Kadaster demonstratie-omgeving";
+#		elmo:html '''
+#			<p>Deze demonstratieomgeving is speciaal ingericht voor de Ordina innovatiedagen<a href="/query/dev">.</a></p>
+#			<a href="/local"><img src="/images/OrdinaInnovatiedagen.png"/></a>
+#		''';
+#	]
+#.
+
+stage:LocalHome a elmo:Representation;
+	elmo:url-pattern "/demo(|/)$";
+	elmo:index "1";
+	elmo:contains stage:LocalMenu;
+	elmo:appearance elmo:HtmlAppearance;
+	elmo:data [
+		rdfs:label "Kadaster demonstratie-omgeving (lokaal)";
+		elmo:html '''
+			<p>Deze demonstratieomgeving is speciaal ingericht voor de Ordina innovatiedagen<a href="/query/dev">.</a></p>
+			<img src="/images/OrdinaInnovatiedagen.png"/>
+		''';
+	]
+.

@@ -1,0 +1,82 @@
+@prefix stage: <http://kadaster.localhost/stage#>.
+@prefix elmo: <http://bp4mc2.org/elmo/def#>.
+@prefix html: <http://www.w3.org/1999/xhtml/vocab#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+stage:Example a elmo:Representation;
+	elmo:url-pattern "/query/example$";
+	elmo:contains stage:DevMenu;
+	elmo:contains stage:Example_data;
+	elmo:contains stage:Index;
+	elmo:contains stage:Example_content;
+	elmo:contains stage:Example_refs;
+.
+
+stage:Example_data a elmo:Part;
+	elmo:appearance elmo:HiddenAppearance;
+	elmo:endpoint <http://almere.pilod.nl/sparql>;
+	elmo:index "0";
+	elmo:query '''
+		construct {<@SUBJECT@>?p?o}
+		where {<@SUBJECT@>?p?o}
+	''';
+.
+
+stage:Index a elmo:Part;
+	elmo:appearance elmo:IndexAppearance;
+	elmo:index "1";
+#	elmo:data [
+#		elmo:name "mode";
+#		html:link "/query/graph";
+#		rdfs:label "demo";
+#		rdf:value "demo";
+#	];
+	elmo:query '''
+		prefix elmo: <http://bp4mc2.org/elmo/def#>
+		prefix html: <http://www.w3.org/1999/xhtml/vocab#>
+		construct {
+			<urn:link> elmo:name "subject".
+			<urn:link> html:link "/query/graph".
+			<urn:link> rdfs:label "demo".
+			<urn:link> rdf:value "@SUBJECT@".
+		}
+		where {}
+	''';
+.
+stage:Example_content a elmo:Part;
+	elmo:index "2";
+	elmo:endpoint <http://almere.pilod.nl/sparql>;
+	elmo:query '''
+		construct {
+			<@SUBJECT@>?p?o.
+			?o rdfs:label ?olabel
+		}
+		where {
+			<@SUBJECT@>?p?o
+			OPTIONAL {
+				?o rdfs:label ?olabel
+			}
+		}
+	''';
+.
+stage:Example_refs a elmo:part;
+	elmo:index "3";
+	elmo:endpoint <http://almere.pilod.nl/sparql>;
+	elmo:fragment [
+		elmo:applies-to "reftype";
+		rdfs:label "Relatie met andere objecten";
+		html:link "/query/relations";
+	];
+	elmo:fragment [
+		elmo:applies-to "object";
+		elmo:appearance elmo:HiddenAppearance;
+		elmo:name "object";
+	];
+	elmo:query '''
+		select (<@SUBJECT@> as ?object) ?reftype (count(?x) as ?reftype_count)
+		where {
+			?x ?reftype <@SUBJECT@>
+		}
+		group by ?reftype
+	''';
+.

@@ -1,0 +1,27 @@
+@prefix stage: <http://kadaster.localhost/stage#>.
+@prefix elmo: <http://bp4mc2.org/elmo/def#>.
+@prefix html: <http://www.w3.org/1999/xhtml/vocab#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+stage:WOZObject a elmo:Representation;
+	elmo:url-pattern "/query/wozobject$";
+	elmo:contains stage:DevMenu;
+	elmo:index "1";
+	elmo:endpoint <http://almere.pilod.nl/sparql>;
+	elmo:fragment [
+		elmo:applies-to "x";
+		rdfs:label "Klasse";
+		elmo:name "class";
+		html:link "/query/example"
+	];
+	elmo:query '''
+		select ?x ?waarde
+		where {
+			?x a <http://bgtld-test.geostandaarden.nl/woz/def#Object>.
+			?x <http://bgtld-test.geostandaarden.nl/woz/def#waarde> ?waarde.
+			FILTER (xsd:decimal(?waarde)>300000)
+		}
+		limit 50
+	''';
+.

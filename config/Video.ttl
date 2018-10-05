@@ -1,0 +1,19 @@
+@prefix stage: <http://kadaster.localhost/stage#>.
+@prefix elmo: <http://bp4mc2.org/elmo/def#>.
+@prefix html: <http://www.w3.org/1999/xhtml/vocab#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+stage:Video a elmo:Representation;
+	elmo:url-pattern "/query/video$";
+	elmo:index "1";
+	elmo:contains stage:LocalMenu;
+	elmo:appearance elmo:HtmlAppearance;
+	elmo:data [
+		rdfs:label "Demo";
+		elmo:html '''
+			<video width="100%" autoplay="autoplay" controls="controls">
+				<source src="../images/Demo.mp4" type="video/mp4"/>
+			</video>
+		''';
+	]
+.

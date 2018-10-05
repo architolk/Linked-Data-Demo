@@ -1,0 +1,45 @@
+@prefix stage: <http://kadaster.localhost/stage#>.
+@prefix elmo: <http://bp4mc2.org/elmo/def#>.
+@prefix html: <http://www.w3.org/1999/xhtml/vocab#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+stage:UseCase a elmo:Representation;
+	elmo:url-pattern "/query/usecase$";
+	elmo:index "1";
+	elmo:contains stage:Menu;
+	elmo:fragment [
+		elmo:applies-to rdfs:label;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:applies-to rdf:type;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:applies-to rdfs:comment;
+		rdfs:label "Use case";
+		elmo:appearance elmo:MarkdownAppearance;
+	];
+	elmo:query '''
+		construct {
+			<http://kadaster.localhost/stage#Usecase_data> ?p ?o.
+		}
+		where {
+			<http://kadaster.localhost/stage#Usecase_data> ?p ?o.
+		}
+	''';
+.
+stage:Usecase_data rdf:type <urn:usecase>;
+	rdfs:label "Use case";
+	rdfs:comment '''
+De volgende stappen zijn wenselijk:
+
+* WOZ-object, plus tonen van de waarde
+* Gekoppeld aan verblijfsobject
+* Verblijfsobject eventueel ook op de kaart kunnen laten zien
+* Verblijfsobject gelinkt aan straat en woonplaats
+* Boompjes in de straat kunnen laten zien (vereist extra koppelvlak)
+* Boompjes verbinden met biologische naam, en link naar DBPedia
+* Uitleg van DBPedia kunnen toevoegen
+	'''
+.

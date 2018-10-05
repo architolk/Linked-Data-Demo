@@ -1,0 +1,37 @@
+@prefix stage: <http://kadaster.localhost/stage#>.
+@prefix elmo: <http://bp4mc2.org/elmo/def#>.
+@prefix html: <http://www.w3.org/1999/xhtml/vocab#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+stage:DevMenu a elmo:Part;
+	elmo:appearance elmo:NavbarSearchAppearance;
+	elmo:index "~";
+	elmo:data [
+		rdfs:label "Kadaster Demo";
+		elmo:data [ elmo:index "1"; rdfs:label "Graph demo"; html:link "/query/graph"];
+		elmo:data [
+			elmo:index "9";
+			rdfs:label "Dev";
+#			elmo:data [elmo:index "1"; rdfs:label "Classes (dynamic)"; html:link "/query/classes"];
+			elmo:data [elmo:index "1"; rdfs:label "Classes (static)"; html:link "/query/classesStatic"];
+			elmo:data [elmo:index "2"; rdfs:label "Use case"; html:link "/query/usecase"];
+			elmo:data [elmo:index "3"; rdfs:label "WOZ Object"; html:link "/query/wozobject"];
+			elmo:data [elmo:index "4"; rdfs:label "Browse object"; html:link "/query/browse.ttl"];
+			elmo:data [elmo:index "5"; rdfs:label "Boompjes"; html:link "/query/boompjes"];
+			elmo:data [elmo:index "6"; rdfs:label "DBPedia boomdata"; html:link "/query/dbpediaboomdata.xml"];
+			elmo:data [elmo:index "7"; rdfs:label "Create dummy boomlinks"; html:link "/query/dummyboomrefs.ttl"];
+		]
+	];
+.
+stage:DevHome a elmo:Representation;
+	elmo:url-pattern "/query/dev$";
+	elmo:index "1";
+	elmo:contains stage:DevMenu;
+	elmo:appearance elmo:HtmlAppearance;
+	elmo:data [
+		rdfs:label "Kadaster demonstratie-omgeving";
+		elmo:html '''
+			<p>Deze demonstratieomgeving is speciaal ingericht voor de Ordina innovatiedagen<a href="/query/dev">.</a></p>
+		''';
+	]
+.

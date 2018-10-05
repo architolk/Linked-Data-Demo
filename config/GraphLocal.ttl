@@ -1,0 +1,297 @@
+@prefix stage: <http://kadaster.localhost/stage#>.
+@prefix elmo: <http://bp4mc2.org/elmo/def#>.
+@prefix html: <http://www.w3.org/1999/xhtml/vocab#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+@prefix woz: <http://bgtld-test.geostandaarden.nl/woz/def#>.
+@prefix bgt: <http://bgtld-test.geostandaarden.nl/bor/def#>.
+@prefix som: <http://www.kenniskluis.nl/som/def#>.
+@prefix bag: <http://bag.kadaster.nl/def#>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+
+stage:LocalGraph	a	elmo:Representation;
+	elmo:url-pattern	"/query/local/graph$";
+	elmo:applies-to [rdf:type <http://bgtld-test.geostandaarden.nl/bor/def#Boom>];
+	elmo:contains stage:LocalMenu;
+	elmo:appearance elmo:GraphAppearance;
+	elmo:fragment [
+		elmo:applies-to "BAG-data";
+		elmo:index "4";
+		html:stylesheet '''
+			fill: yellow;
+			fill-opacity: .3;
+			stroke: #666;
+		''';
+	];
+	elmo:fragment [
+		elmo:applies-to "WOZ-data";
+		elmo:index "5";
+		html:stylesheet '''
+			fill: green;
+			fill-opacity: .3;
+			stroke: #666;
+		''';
+	];
+	elmo:fragment [
+		elmo:applies-to "BGT-data";
+		elmo:index "6";
+		html:stylesheet '''
+			fill: brown;
+			fill-opacity: .3;
+			stroke: #666;
+		''';
+	];
+	elmo:fragment [
+		elmo:applies-to "Wikipedia-data";
+		elmo:index "7";
+		html:stylesheet '''
+			fill: magenta;
+			fill-opacity: .3;
+			stroke: #666;
+		''';
+	];
+	elmo:fragment [
+		elmo:applies-to "klasse";
+		elmo:index "1";
+		html:stylesheet '''
+			fill: blue;
+			fill-opacity: .3;
+			stroke: #666;
+		''';
+	];
+	elmo:fragment [
+		elmo:applies-to "begrip";
+		elmo:index "2";
+		html:stylesheet '''
+			fill: red;
+			fill-opacity: .3;
+			stroke: #666;
+		''';
+	];
+	elmo:fragment [
+		elmo:applies-to "regelgeving";
+		elmo:index "3";
+		html:stylesheet '''
+			fill: gray;
+			fill-opacity: .3;
+			stroke: #666;
+		''';
+	];
+	elmo:fragment [
+		elmo:applies-to html:img;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:index "1";
+		elmo:applies-to woz:typeGebouw;
+		rdfs:label "Soort gebouw";
+	];
+	elmo:fragment [
+		elmo:index "2";
+		elmo:applies-to woz:waarde;
+		rdfs:label "Waarde";
+	];
+	elmo:fragment [
+		elmo:applies-to som:bron;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:applies-to som:rationale;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:index "1";
+		elmo:applies-to som:naam;
+		rdfs:label "Naam";
+	];
+	elmo:fragment [
+		elmo:index "2";
+		elmo:applies-to som:definitie;
+		rdfs:label "Definitie";
+	];
+	elmo:fragment [
+		elmo:applies-to rdfs:comment;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:applies-to elmo:name;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:applies-to bag:ingangsdatum;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:applies-to bag:identificatiecode;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:index "1";
+		elmo:applies-to bag:naamOpenbareRuimte;
+		rdfs:label "Naam";
+	];
+	elmo:fragment [
+		elmo:index "1";
+		elmo:applies-to bag:woonplaatsnaam;
+		rdfs:label "Naam";
+	];
+	elmo:fragment [
+		elmo:index "2";
+		elmo:applies-to bag:bouwjaar;
+		rdfs:label "Bouwjaar";
+	];
+	elmo:fragment [
+		elmo:index "2";
+		elmo:applies-to bag:typeOpenbareRuimte;
+		rdfs:label "Type";
+	];
+	elmo:fragment [
+		elmo:index "1";
+		elmo:applies-to bag:huisnummer;
+		rdfs:label "Type";
+	];
+	elmo:fragment [
+		elmo:index "2";
+		elmo:applies-to bag:huisletter;
+		rdfs:label "Type";
+	];
+	elmo:fragment [
+		elmo:index "3";
+		elmo:applies-to bag:postcode;
+		rdfs:label "Type";
+	];
+	elmo:fragment [
+		elmo:index "1";
+		elmo:applies-to bag:gebruiksdoel;
+		rdfs:label "Gebruiksdoel";
+	];
+	elmo:fragment [
+		elmo:index "2";
+		elmo:applies-to bag:oppervlakte;
+		rdfs:label "Oppervlakte";
+	];
+	elmo:fragment [
+		elmo:index "4";
+		elmo:applies-to bag:status;
+		rdfs:label "Status";
+	];
+	elmo:fragment [
+		elmo:applies-to bag:einddatum;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:applies-to geo:geometry;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:applies-to bgt:nedboomsoort;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:applies-to bgt:std_boomtype;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:applies-to bgt:std_categorie;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:applies-to bgt:nedboomsoort;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:index "1";
+		elmo:applies-to bgt:aanlegjaar;
+		rdfs:label "Aanlegjaar";
+	];
+	elmo:fragment [
+		elmo:index "2";
+		elmo:applies-to bgt:boomconditie;
+		rdfs:label "Boomconditie";
+	];
+	elmo:fragment [
+		elmo:index "3";
+		elmo:applies-to bgt:diameter;
+		rdfs:label "Diameter";
+	];
+	elmo:fragment [
+		elmo:index "4";
+		elmo:applies-to bgt:latboomsoort;
+		rdfs:label "Boomsoort";
+	];
+	elmo:fragment [
+		elmo:index "5";
+		elmo:applies-to bgt:risicoklasse;
+		rdfs:label "Risicoklasse";
+	];
+	elmo:fragment [
+		elmo:index "6";
+		elmo:applies-to bgt:std_boomhoogte;
+		rdfs:label "Boomhoogte";
+	];
+	elmo:query '''
+		prefix elmo: <http://bp4mc2.org/elmo/def#>
+		prefix html: <http://www.w3.org/1999/xhtml/vocab#>
+		construct {
+			<@SUBJECT@> rdfs:label ?slabel.
+			<@SUBJECT@> elmo:style ?stype.
+			<@SUBJECT@> ?p ?o.
+			<@SUBJECT@> html:img "/images/black.png".
+			?o ?opp ?oppo.
+			?o elmo:style ?otype.
+#			?o html:img ?oimg.
+			?os ?op <@SUBJECT@>.
+			?os rdfs:label ?oslabel.
+			?os elmo:style ?ostype.
+#			?os html:img "/images/black.png".
+			?os ?osp ?ospo.
+			owl:Class elmo:name "klasse".
+			skos:Concept elmo:name "begrip".
+			<http://www.kenniskluis.nl/som/def#Begrip> elmo:name "begrip".
+			<http://purl.org/dc/dcmitype/Text> elmo:name "regelgeving".
+			<http://bgtld-test.geostandaarden.nl/woz/def#Object> elmo:name "WOZ-data".
+			<http://bag.kadaster.nl/def#OpenbareRuimte> elmo:name "BAG-data".
+			<http://bag.kadaster.nl/def#Verblijfsobject> elmo:name "BAG-data".
+			<http://bag.kadaster.nl/def#Pand> elmo:name "BAG-data".
+			<http://bag.kadaster.nl/def#Woonplaats> elmo:name "BAG-data".
+			<http://bag.kadaster.nl/def#Nummeraanduiding> elmo:name "BAG-data".
+			<http://bgtld-test.geostandaarden.nl/bor/def#Boom> elmo:name "BGT-data".
+			<http://dbpedia.org/ontology/Species> elmo:name "Wikipedia-data".
+		}
+		where {
+		graph <http://dotwebstack.org/doc/demo> {
+			{
+				<@SUBJECT@> rdf:type ?stype.
+			}
+			UNION
+			{
+				<@SUBJECT@> rdfs:label ?slabel.
+			}
+			UNION
+			{
+				<@SUBJECT@> ?p ?o
+				FILTER (?p!=<http://www.opengis.net/ont/geosparql#hasGeometry> && ?o!=owl:Class && ?o!=<http://www.kenniskluis.nl/som/def#Begrip>)
+				OPTIONAL {
+					?o rdf:type ?otype
+				}
+				OPTIONAL {
+					?o html:img ?oimg
+				}
+				OPTIONAL {
+					?o ?opp ?oppo
+					FILTER (isLiteral(?oppo))
+				}
+			}
+			UNION
+			{
+				?os ?op <@SUBJECT@>
+				OPTIONAL {?os rdf:type ?ostype}
+				OPTIONAL {
+					?os ?osp ?ospo
+					FILTER (isLiteral(?ospo))
+				}
+			}
+		}
+		}
+	''';
+.

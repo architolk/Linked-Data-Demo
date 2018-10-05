@@ -1,0 +1,21 @@
+@prefix stage: <http://kadaster.localhost/stage#>.
+@prefix elmo: <http://bp4mc2.org/elmo/def#>.
+@prefix html: <http://www.w3.org/1999/xhtml/vocab#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+stage:Relations a elmo:Representation;
+	elmo:url-pattern "/query/relations$";
+	elmo:contains stage:DevMenu;
+	elmo:index "1";
+	elmo:fragment [
+		elmo:applies-to "x";
+		rdfs:label "Relaties";
+		html:link "/query/example";
+	];
+	elmo:endpoint <http://almere.pilod.nl/sparql>;
+	elmo:query '''
+		select ?x
+		where {?x <@SUBJECT@> <@OBJECT@>}
+		limit 100
+	''';
+.

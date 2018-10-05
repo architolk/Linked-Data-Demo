@@ -1,0 +1,96 @@
+@prefix stage: <http://kadaster.localhost/stage#>.
+@prefix elmo: <http://bp4mc2.org/elmo/def#>.
+@prefix html: <http://www.w3.org/1999/xhtml/vocab#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+stage:Pand a elmo:Representation;
+	elmo:uri-pattern "/id/pand";
+	elmo:contains stage:LocalMenu;
+	elmo:index "2";
+	elmo:appearance elmo:GeoAppearance;
+	elmo:fragment [
+		elmo:applies-to "Meidoorn";
+		html:icon "/images/meidoorn.png";
+	];
+	elmo:fragment [
+		elmo:applies-to "Haagbeuk";
+		html:icon "/images/meidoorn.png";
+	];
+	elmo:fragment [
+		elmo:applies-to "Sierpeer";
+		html:icon "/images/meidoorn.png";
+	];
+	elmo:fragment [
+		elmo:applies-to "Wittepaardekastanje";
+		html:icon "/images/meidoorn.png";
+	];
+	elmo:query '''
+		prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+		prefix geosparql: <http://www.opengis.net/ont/geosparql#>
+		prefix bor: <http://bgtld-test.geostandaarden.nl/bor/def#>
+		prefix html: <http://www.w3.org/1999/xhtml/vocab#>
+		prefix dct: <http://purl.org/dc/terms/>
+		prefix elmo: <http://bp4mc2.org/elmo/def#>
+		construct {
+			?boom geo:geometry ?bgeo.
+			?boom rdfs:label ?blabel.
+			?boom elmo:style ?boomsoort.
+			<@SUBJECT@> geo:geometry ?wktpand.
+			<@SUBJECT@> rdfs:label "Pand".
+			?boomsoort elmo:name ?blabels.
+		}
+		where {
+			{
+				<@SUBJECT@> geosparql:hasGeometry ?geopand.
+				?geopand geosparql:asWKT ?wktpand.
+			}
+			UNION
+			{
+				?boom bor:vlakbijPand <@SUBJECT@>.
+				?boom geo:geometry ?bgeo.
+				?boom bor:nedboomsoort ?blabel.
+				?boom dct:subject ?boomsoort.
+				BIND (replace(?blabel," ","") as ?blabels)
+			}
+		}
+	''';
+.
+
+stage:PandScholen a elmo:Representation;
+  elmo:index "2";
+  elmo:appearance elmo:GeoAppearance;
+  elmo:url-pattern "/query/pandschool$";
+	elmo:contains stage:LocalMenu;
+  elmo:layer elmo:TopLayer;
+	elmo:query '''
+		prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+		prefix geosparql: <http://www.opengis.net/ont/geosparql#>
+		prefix bor: <http://bgtld-test.geostandaarden.nl/bor/def#>
+		prefix html: <http://www.w3.org/1999/xhtml/vocab#>
+    PREFIX bag: <http://bag.basisregistraties.overheid.nl/def/bag#>
+    prefix duo: <http://localhost:8080/demo/def/duo#>
+		construct {
+			?boom geo:geometry ?bgeo.
+			?boom rdfs:label ?blabel.
+			<@SUBJECT@> geo:geometry ?wktpand.
+			<@SUBJECT@> rdfs:label "Pand".
+      ?s geo:geometry ?wkt.
+      ?s rdfs:label ?slabel.
+		}
+		where {
+			{
+				<@SUBJECT@> geosparql:hasGeometry ?geopand.
+				?geopand geosparql:asWKT ?wktpand.
+			}
+      UNION
+      {
+        ?s a duo:School.
+        ?s duo:adres ?na.
+        ?s rdfs:label ?slabel.
+        ?vo bag:hoofdadres ?na.
+        ?vo geosparql:hasGeometry ?geo.
+        ?geo geosparql:asWKT ?wkt.
+      }
+		}
+	''';
+.

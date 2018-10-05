@@ -1,0 +1,24 @@
+@prefix stage: <http://kadaster.localhost/stage#>.
+@prefix elmo: <http://bp4mc2.org/elmo/def#>.
+@prefix html: <http://www.w3.org/1999/xhtml/vocab#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+stage:ClassesStatic a elmo:Representation;
+	elmo:url-pattern "/query/classesStatic$";
+	elmo:contains stage:DevMenu;
+	elmo:index "1";
+	elmo:fragment [
+		elmo:applies-to "class";
+		rdfs:label "Klasse";
+		elmo:name "class";
+		html:link "/query/examples"
+	];
+	elmo:query '''
+		select ?class ?class_count
+		where {
+			graph <http://kadaster.localhost:8080/stage> {
+				?class rdf:value ?class_count
+			}
+		}
+	''';
+.

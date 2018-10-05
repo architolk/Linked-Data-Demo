@@ -1,0 +1,36 @@
+@prefix stage: <http://kadaster.localhost/stage#>.
+@prefix elmo: <http://bp4mc2.org/elmo/def#>.
+@prefix html: <http://www.w3.org/1999/xhtml/vocab#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+stage:Boompjes a elmo:Representation;
+	elmo:url-pattern "/query/boompjes$";
+	elmo:contains stage:DevMenu;
+	elmo:index "1";
+	elmo:fragment [
+		elmo:applies-to "x";
+		rdfs:label "Relaties";
+		html:link "/query/example";
+	];
+	elmo:appearance elmo:GeoAppearance;
+#	elmo:endpoint <http://almere.pilod.nl/sparql>;
+	elmo:query '''
+		prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+		construct {
+			?x geo:geometry ?geo.
+			?x rdfs:label "Geo".
+			<http://bag.kadaster.nl/id/geovlak/0546100000042977> geo:geometry ?wozgeo.
+			<http://bag.kadaster.nl/id/geovlak/0546100000042977> rdfs:label "OBJ".
+		}
+		where {
+			{
+				?x a <http://bgtld-test.geostandaarden.nl/bor/def#Boom>.
+				?x geo:geometry ?geo.
+			}
+			UNION
+			{
+				<http://bag.kadaster.nl/id/geovlak/0546100000042977> <http://www.opengis.net/ont/geosparql#asWKT> ?wozgeo.
+			}
+		}
+	''';
+.

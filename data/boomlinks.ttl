@@ -1,0 +1,55 @@
+@prefix ns2: <http://purl.org/dc/terms/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+<http://bgtld-test.geostandaarden.nl/bor/def#Boom> a owl:Class;
+	rdfs:label "Boom";
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.29C7953D-CF33-440B-B7E7-5ED628DDB5EF> ns2:subject <http://nl.dbpedia.org/resource/Haagbeuk>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.39094C0B-9EA9-45FB-8068-D477F5314B3A> ns2:subject <http://nl.dbpedia.org/resource/Meidoorn>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.39B35C00-CC91-4840-83CB-03236B8BA493> ns2:subject <http://nl.dbpedia.org/resource/Haagbeuk>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.440301A8-39E1-40EA-BB58-3ACB9AB68CD2> ns2:subject <http://nl.dbpedia.org/resource/Meidoorn>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.488D59AA-8F80-42DA-98D6-3C153C2F924A> ns2:subject <http://nl.dbpedia.org/resource/Haagbeuk>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.521B1C98-49DD-45BD-8B7D-254264B2647F> ns2:subject <http://nl.dbpedia.org/resource/Peer>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.5340F55C-E207-473D-A241-305179CC7D1C> ns2:subject <http://nl.dbpedia.org/resource/Meidoorn>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.63DA8F0B-0686-4097-BEFB-DD7EBB3BD6AD> ns2:subject <http://nl.dbpedia.org/resource/Haagbeuk>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.64BBD65F-FC60-4376-BF7E-0BC84D3890F0> ns2:subject <http://nl.dbpedia.org/resource/Meidoorn>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.66B404F9-C3BE-4D89-8B16-D39737539B5B> ns2:subject <http://nl.dbpedia.org/resource/Meidoorn>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.77D12C28-993D-4105-8D49-DBDC571B7F42> ns2:subject <http://nl.dbpedia.org/resource/Witte_paardenkastanje>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.7DD3D2D1-6038-4E41-AC89-717ED5852311> ns2:subject <http://nl.dbpedia.org/resource/Meidoorn>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.833037DA-97C7-47DE-8157-24296F4560FC> ns2:subject <http://nl.dbpedia.org/resource/Haagbeuk>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.AA8B5866-7913-441A-A895-1998B46F9291> ns2:subject <http://nl.dbpedia.org/resource/Haagbeuk>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.B78D15C7-5AC3-4CF0-B9B2-C27F782E323C> ns2:subject <http://nl.dbpedia.org/resource/Haagbeuk>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.BD1966A5-D40E-4C5E-B722-CB639F39D9AC> ns2:subject <http://nl.dbpedia.org/resource/Haagbeuk>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.CA8CEED0-0846-4B21-8357-34C21A361F00> ns2:subject <http://nl.dbpedia.org/resource/Peer>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.CB775EDE-549A-40C5-8569-31E91D541F04> ns2:subject <http://nl.dbpedia.org/resource/Haagbeuk>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.CF55813E-7B79-4C5B-A4F6-42E91A526367> ns2:subject <http://nl.dbpedia.org/resource/Meidoorn>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.E23CACD5-E9F2-4AFB-9AAF-2A6E6D17405A> ns2:subject <http://nl.dbpedia.org/resource/Peer>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.E8F5FAEB-4A36-4324-B999-751A7111F198> ns2:subject <http://nl.dbpedia.org/resource/Haagbeuk>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.EF89B7F5-D5DE-44B4-A1A3-BC3A6BA38062> ns2:subject <http://nl.dbpedia.org/resource/Haagbeuk>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.EFF9BAE2-1032-42AF-B8BD-87EEF14D603B> ns2:subject <http://nl.dbpedia.org/resource/Peer>
+.
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.FE1DFD6C-A93E-4A69-89C4-4B123450B5DE> ns2:subject <http://nl.dbpedia.org/resource/Peer>
+.
+

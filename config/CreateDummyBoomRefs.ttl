@@ -1,0 +1,21 @@
+@prefix stage: <http://kadaster.localhost/stage#>.
+@prefix elmo: <http://bp4mc2.org/elmo/def#>.
+@prefix html: <http://www.w3.org/1999/xhtml/vocab#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+stage:CreateDummyBoomRefs a elmo:Representation;
+	elmo:url-pattern "/query/dummyboomrefs.ttl$";
+	elmo:query '''
+		prefix dct: <http://purl.org/dc/terms/>
+		construct {
+			?s dct:subject ?boom
+		}
+		where {
+			select ?s (concat('http://nl.dbpedia.org/resource/',?naam) as ?boom)
+			where {
+				?s a <http://bgtld-test.geostandaarden.nl/bor/def#Boom>.
+				?s <http://bgtld-test.geostandaarden.nl/bor/def#nedboomsoort> ?naam.
+			}
+		}
+	''';
+.

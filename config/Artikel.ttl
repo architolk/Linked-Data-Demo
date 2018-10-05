@@ -1,0 +1,38 @@
+@prefix stage: <http://kadaster.localhost/stage#>.
+@prefix elmo: <http://bp4mc2.org/elmo/def#>.
+@prefix html: <http://www.w3.org/1999/xhtml/vocab#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dctypes: <http://purl.org/dc/dcmitype/>.
+
+stage:Artikel a elmo:Representation;
+	elmo:applies-to [rdf:type dctypes:Text];
+	elmo:contains stage:LocalMenu;
+	elmo:fragment [
+		elmo:applies-to rdfs:label;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:applies-to rdf:type;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:applies-to rdfs:seeAlso;
+		rdfs:label "Originele vindplaats";
+		elmo:appearance elmo:GlobalLink;
+		elmo:index "1";
+	];
+	elmo:fragment [
+		elmo:applies-to rdfs:comment;
+		elmo:appearance elmo:MarkdownAppearance;
+		rdfs:label "Tekst";
+		elmo:index "2";
+	];
+	elmo:query '''
+		construct {
+			<@SUBJECT@> ?p ?o
+		}
+		where {
+			<@SUBJECT@> ?p ?o
+		}
+	''';
+.

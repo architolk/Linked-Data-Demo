@@ -1,0 +1,852 @@
+@prefix n1: <http://localhost:8080/demo/id/school/>.
+@prefix n2: <http://bag.basisregistraties.overheid.nl/bag/id/verblijfsobject/>.
+@prefix n3: <http://bag.basisregistraties.overheid.nl/bag/id/nummeraanduiding/>.
+@prefix n4: <http://bag.basisregistraties.overheid.nl/bag/id/geometry/>.
+@prefix ns3: <http://data.pdok.nl/def/pdok#>.
+@prefix ns4: <http://localhost:8080/demo/def/duo#>.
+@prefix ns5: <http://bag.basisregistraties.overheid.nl/def/bag#>.
+@prefix ogcgs: <http://www.opengis.net/ont/geosparql#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+n4:080F9920AAB56B601AE8E6C3D5E579EE a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (95007.729 464573.374)";
+    ogcgs:asWKT "POINT(4.5103326718082 52.166056809236)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:1D39D01E29CF4299B034618104C1EF42 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (90925.79 462713.48)";
+    ogcgs:asWKT "POINT(4.4510277333759 52.148883652332)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:2F261568AAE14EAD9956F30D6988528B a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (90757.761 463275.52)";
+    ogcgs:asWKT "POINT(4.4484667347377 52.153915180683)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:2F7FD584B440BBD4CC812211F47A8059 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (95410.512 466030.358)";
+    ogcgs:asWKT "POINT(4.5159634209149 52.179194419174)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:3883F688D91C37D5989ACC1E897DA4A1 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (94486.732 466096.47)";
+    ogcgs:asWKT "POINT(4.5024468805903 52.17968811421)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:3FAAE3C53D9F4A05E4ACD6531AC45714 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (93376.392 462893.615)";
+    ogcgs:asWKT "POINT(4.4867960271447 52.150781194818)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:400F4DA3DC4BAA6155603AB5586BD45A a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (95356.411 466012.985)";
+    ogcgs:asWKT "POINT(4.5151755701671 52.179032446662)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:402EF32C45E4205786C901220FA8F47D a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (92600.384 462780.008)";
+    ogcgs:asWKT "POINT(4.4754797024665 52.149673140325)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:4DB3B43BC0EC9690DE5AD526023C60B0 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (93452.096 462850.585)";
+    ogcgs:asWKT "POINT(4.4879098304367 52.150402916822)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:61A30FF1B78E87A0178A6FA2A522B194 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (94465.855 462677.406)";
+    ogcgs:asWKT "POINT(4.5027512547062 52.148958493252)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:64523136E1B3F108A5558B3162DD163E a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (94965.92 464637.791)";
+    ogcgs:asWKT "POINT(4.5097102539497 52.166631187897)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:7AE07D66F44AF23ACEBF5F493C8C0C3F a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (94758.182 462839.131)";
+    ogcgs:asWKT "POINT(4.5069932171801 52.150443867495)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:7CA4E7CE3B90084F27CCF7DF3B5A887F a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (92714.217 465380.363)";
+    ogcgs:asWKT "POINT(4.4766657480349 52.17305538932)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:8129756912CC5E8E6353C4945A80554F a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (94979.091 464598.795)";
+    ogcgs:asWKT "POINT(4.5099096412935 52.166282159117)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:835C7084F901246F7BB045A8C76CF874 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (90780.12 463266.362)";
+    ogcgs:asWKT "POINT(4.4487951446652 52.153835477082)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:83F7FD7FA85DAFC48BE1FDDA65B9FABC a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (94803.504 465398.076)";
+    ogcgs:asWKT "POINT(4.507201725728 52.173446240099)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:8457471E7F5AE4E1A7FC5F168FDFD423 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (92133.965 463788.097)";
+    ogcgs:asWKT "POINT(4.4684791113988 52.158679986496)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:9698544A4C5837885FA9778C72E890CA a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (92374.677 461743.7)";
+    ogcgs:asWKT "POINT(4.4723732166335 52.140334275235)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:99AC53585A818884F6AB11882A515966 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (90769.216 463265.37)";
+    ogcgs:asWKT "POINT(4.4486360183963 52.153825294666)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:99F2A1EB452423E27F78C2DF35808B83 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (94743.164 462810.585)";
+    ogcgs:asWKT "POINT(4.5067788725629 52.150185684739)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:A673EED3E67740BEB73C8FC1A62DFA73 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (92356.302 463979.02)";
+    ogcgs:asWKT "POINT(4.4716927295121 52.160421063285)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:A7C920182223D5B867E4A3704EBD0A6F a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (92685.108 462854.773)";
+    ogcgs:asWKT "POINT(4.4767037475009 52.150354614459)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:B9482F5567AF4915CC0460E27E17971D a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (93455.413 463366.292)";
+    ogcgs:asWKT "POINT(4.4878648698445 52.155037972236)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:BBF63273AA314E223CC3DFECCD4000FD a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (92115.495 463729.558)";
+    ogcgs:asWKT "POINT(4.468220063122 52.158151795083)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:BFAD178CCD2C7990866377DFDB7BFB55 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (94952.271 464633.854)";
+    ogcgs:asWKT "POINT(4.5095114715435 52.166594322442)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:C9525C3B7026FCCB52333B1C381304D2 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (94977.723 464586.838)";
+    ogcgs:asWKT "POINT(4.509891762279 52.166174552066)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:CBAAD6C53B60D60A9B6CB60DBBF5FE04 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (92117.457 463727.779)";
+    ogcgs:asWKT "POINT(4.4682490613284 52.158136030508)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:D1987AD906BE250293F4CE79EE03E242 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (93464.042 462848.439)";
+    ogcgs:asWKT "POINT(4.4880847444852 52.150384960676)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:DCAF1A6DC0384BB8D4569ACBD7EC5079 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (94590.763 462675.244)";
+    ogcgs:asWKT "POINT(4.5045764312171 52.148952727438)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:DDBBECE24B689B5C418A15BF6EE2ED2D a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (93436.717 462860.027)";
+    ogcgs:asWKT "POINT(4.4876834398373 52.150486059924)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:DF951F795143006218B7E0E1A3EB1134 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (92714.67 465355.595)";
+    ogcgs:asWKT "POINT(4.4766769153767 52.17283285088)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:E2DD5AF13EB17955A3C2AB5F11A11956 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (93492.063 463434.906)";
+    ogcgs:asWKT "POINT(4.4883879405388 52.155658689776)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:EAA35981621C6A867169C42D9A7578A5 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (92932.918 465355.425)";
+    ogcgs:asWKT "POINT(4.4798670495086 52.172855892846)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:F09BAF7F4EEECC0ED061FC0FBE2E987A a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (93706.357 464465.838)";
+    ogcgs:asWKT "POINT(4.491332968663 52.164947529642)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:F1E308BC12191C2AE4B6B2D2286AE153 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (94478.28 462641.899)";
+    ogcgs:asWKT "POINT(4.5029390962014 52.148640748883)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n4:FBA35E7999E903608F23DDB583FF76C1 a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
+    ns3:asWKT-RD "POINT (94484.697 466112.052)";
+    ogcgs:asWKT "POINT(4.5024143512363 52.179827927004)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+.
+n3:0546200000001316 a ns5:Nummeraanduiding;
+    ns5:huisnummer 8;
+    ns5:postcode "2331DV"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000001316"@nl
+.
+n3:0546200000003980 a ns5:Nummeraanduiding;
+    ns5:huisnummer 2;
+    ns5:postcode "2331PD"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000003980"@nl
+.
+n3:0546200000005128 a ns5:Nummeraanduiding;
+    ns5:huisnummer 19;
+    ns5:postcode "2316HA"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000005128"@nl
+.
+n3:0546200000005228 a ns5:Nummeraanduiding;
+    ns5:huisnummer 1;
+    ns5:postcode "2318TJ"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000005228"@nl
+.
+n3:0546200000005308 a ns5:Nummeraanduiding;
+    ns5:huisnummer 119;
+    ns5:postcode "2321TZ"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000005308"@nl
+.
+n3:0546200000005442 a ns5:Nummeraanduiding;
+    ns5:huisnummer 1;
+    ns5:postcode "2332XG"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000005442"@nl
+.
+n3:0546200000005930 a ns5:Nummeraanduiding;
+    ns5:huisnummer 22;
+    ns5:postcode "2332XH"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000005930"@nl
+.
+n3:0546200000008344 a ns5:Nummeraanduiding;
+    ns5:huisnummer 5;
+    ns5:postcode "2318TJ"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000008344"@nl
+.
+n3:0546200000008527 a ns5:Nummeraanduiding;
+    ns5:huisnummer 129;
+    ns5:postcode "2311GM"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000008527"@nl
+.
+n3:0546200000010439 a ns5:Nummeraanduiding;
+    ns5:huisnummer 20;
+    ns5:postcode "2311RE"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000010439"@nl
+.
+n3:0546200000010632 a ns5:Nummeraanduiding;
+    ns5:huisnummer 6;
+    ns5:postcode "2331DV"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000010632"@nl
+.
+n3:0546200000010642 a ns5:Nummeraanduiding;
+    ns5:huisnummer 4;
+    ns5:postcode "2331DV"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000010642"@nl
+.
+n3:0546200000017546 a ns5:Nummeraanduiding;
+    ns5:huisnummer 1;
+    ns5:postcode "2313AB"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000017546"@nl
+.
+n3:0546200000017552 a ns5:Nummeraanduiding;
+    ns5:huisnummer 1;
+    ns5:postcode "2313AB"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000017552"@nl
+.
+n3:0546200000018992 a ns5:Nummeraanduiding;
+    ns5:huisnummer 15;
+    ns5:postcode "2313GG"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000018992"@nl
+.
+n3:0546200000018993 a ns5:Nummeraanduiding;
+    ns5:huisnummer 17;
+    ns5:postcode "2313GG"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000018993"@nl
+.
+n3:0546200000031903 a ns5:Nummeraanduiding;
+    ns5:huisnummer 1;
+    ns5:postcode "2317AN"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000031903"@nl
+.
+n3:0546200000035551 a ns5:Nummeraanduiding;
+    ns5:huisnummer 1;
+    ns5:postcode "2317VX"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000035551"@nl
+.
+n3:0546200000035837 a ns5:Nummeraanduiding;
+    ns5:huisnummer 7;
+    ns5:postcode "2317XK"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000035837"@nl
+.
+n3:0546200000041408 a ns5:Nummeraanduiding;
+    ns5:huisnummer 48;
+    ns5:postcode "2321TE"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000041408"@nl
+.
+n3:0546200000042804 a ns5:Nummeraanduiding;
+    ns5:huisnummer 3;
+    ns5:postcode "2324BG"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000042804"@nl
+.
+n3:0546200000047627 a ns5:Nummeraanduiding;
+    ns5:huisnummer 12;
+    ns5:postcode "2332AX"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000047627"@nl
+.
+n3:0546200000053718 a ns5:Nummeraanduiding;
+    ns5:huisnummer 1;
+    ns5:postcode "2334CG"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000053718"@nl
+.
+n3:0546200000053753 a ns5:Nummeraanduiding;
+    ns5:huisnummer 60;
+    ns5:postcode "2334CL"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000053753"@nl
+.
+n3:0546200000059316 a ns5:Nummeraanduiding;
+    ns5:huisnummer 17;
+    ns5:postcode "2313GG"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000059316"@nl
+.
+n3:0546200000059427 a ns5:Nummeraanduiding;
+    ns5:huisnummer 1;
+    ns5:postcode "2334CG"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000059427"@nl
+.
+n3:0546200000063104 a ns5:Nummeraanduiding;
+    ns5:huisnummer 8;
+    ns5:postcode "2313JE"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000063104"@nl
+.
+n3:0546200000063105 a ns5:Nummeraanduiding;
+    ns5:huisnummer 8;
+    ns5:postcode "2313JE"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000063105"@nl
+.
+n3:0546200000064129 a ns5:Nummeraanduiding;
+    ns5:huisnummer 1;
+    ns5:postcode "2315HG"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000064129"@nl
+.
+n3:0546200000064226 a ns5:Nummeraanduiding;
+    ns5:huisnummer 4;
+    ns5:postcode "2315HG"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000064226"@nl
+.
+n3:0546200000064228 a ns5:Nummeraanduiding;
+    ns5:huisnummer 7;
+    ns5:postcode "2315HG"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000064228"@nl
+.
+n3:0546200000064229 a ns5:Nummeraanduiding;
+    ns5:huisnummer 8;
+    ns5:postcode "2315HG"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000064229"@nl
+.
+n3:0546200000072495 a ns5:Nummeraanduiding;
+    ns5:huisnummer 1;
+    ns5:postcode "2313AB"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000072495"@nl
+.
+n3:0546200000072496 a ns5:Nummeraanduiding;
+    ns5:huisnummer 1;
+    ns5:postcode "2313AB"^^xsd:string;
+    rdfs:label "Nummeraanduiding 0546200000072496"@nl
+.
+n2:0546010000001316 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000001316;
+    ns5:oppervlakte 1326;
+    ogcgs:hasGeometry n4:2F261568AAE14EAD9956F30D6988528B;
+    rdfs:label "Verblijfsobject 0546010000001316"@nl
+.
+n2:0546010000003980 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000003980;
+    ns5:oppervlakte 3111;
+    ns5:oppervlakte 780;
+    ogcgs:hasGeometry n4:1D39D01E29CF4299B034618104C1EF42;
+    rdfs:label "Verblijfsobject 0546010000003980"@nl
+.
+n2:0546010000005128 a ns5:Verblijfsobject, ns5:VerblijfsobjectBijeenkomstfunctie, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000005128;
+    ns5:oppervlakte 2165;
+    ns5:oppervlakte 2142;
+    ns5:oppervlakte 2141;
+    ns5:oppervlakte 1932;
+    ogcgs:hasGeometry n4:F09BAF7F4EEECC0ED061FC0FBE2E987A;
+    rdfs:label "Verblijfsobject 0546010000005128"@nl
+.
+n2:0546010000005228 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000005228;
+    ns5:oppervlakte 1249;
+    ogcgs:hasGeometry n4:FBA35E7999E903608F23DDB583FF76C1;
+    rdfs:label "Verblijfsobject 0546010000005228"@nl
+.
+n2:0546010000005308 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000005308;
+    ns5:oppervlakte 907;
+    ns5:oppervlakte 1928;
+    ogcgs:hasGeometry n4:A7C920182223D5B867E4A3704EBD0A6F;
+    rdfs:label "Verblijfsobject 0546010000005308"@nl
+.
+n2:0546010000005442 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000005442;
+    ns5:oppervlakte 1526;
+    ns5:oppervlakte 1889;
+    ogcgs:hasGeometry n4:8457471E7F5AE4E1A7FC5F168FDFD423;
+    rdfs:label "Verblijfsobject 0546010000005442"@nl
+.
+n2:0546010000005930 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000005930;
+    ns5:oppervlakte 1238;
+    ns5:oppervlakte 1092;
+    ogcgs:hasGeometry n4:BBF63273AA314E223CC3DFECCD4000FD;
+    ogcgs:hasGeometry n4:CBAAD6C53B60D60A9B6CB60DBBF5FE04;
+    rdfs:label "Verblijfsobject 0546010000005930"@nl
+.
+n2:0546010000008344 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000008344;
+    ns5:oppervlakte 1483;
+    ogcgs:hasGeometry n4:3883F688D91C37D5989ACC1E897DA4A1;
+    rdfs:label "Verblijfsobject 0546010000008344"@nl
+.
+n2:0546010000008527 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000008527;
+    ns5:oppervlakte 1568;
+    ogcgs:hasGeometry n4:E2DD5AF13EB17955A3C2AB5F11A11956;
+    rdfs:label "Verblijfsobject 0546010000008527"@nl
+.
+n2:0546010000010439 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000010439;
+    ns5:oppervlakte 1596;
+    ogcgs:hasGeometry n4:B9482F5567AF4915CC0460E27E17971D;
+    rdfs:label "Verblijfsobject 0546010000010439"@nl
+.
+n2:0546010000010632 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000010632;
+    ns5:oppervlakte 1586;
+    ogcgs:hasGeometry n4:99AC53585A818884F6AB11882A515966;
+    rdfs:label "Verblijfsobject 0546010000010632"@nl
+.
+n2:0546010000010642 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000010642;
+    ns5:oppervlakte 2221;
+    ns5:oppervlakte 1496;
+    ogcgs:hasGeometry n4:835C7084F901246F7BB045A8C76CF874;
+    rdfs:label "Verblijfsobject 0546010000010642"@nl
+.
+n2:0546010000017546 a ns5:Verblijfsobject, ns5:VerblijfsobjectWoonfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000017546;
+    ns5:oppervlakte 165;
+    ogcgs:hasGeometry n4:3FAAE3C53D9F4A05E4ACD6531AC45714;
+    rdfs:label "Verblijfsobject 0546010000017546"@nl
+.
+n2:0546010000017552 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000017552;
+    ns5:oppervlakte 1488;
+    ogcgs:hasGeometry n4:4DB3B43BC0EC9690DE5AD526023C60B0;
+    rdfs:label "Verblijfsobject 0546010000017552"@nl
+.
+n2:0546010000018992 a ns5:Verblijfsobject, ns5:VerblijfsobjectBijeenkomstfunctie, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000018992;
+    ns5:oppervlakte 1678;
+    ogcgs:hasGeometry n4:DCAF1A6DC0384BB8D4569ACBD7EC5079;
+    rdfs:label "Verblijfsobject 0546010000018992"@nl
+.
+n2:0546010000018993 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000018993;
+    ns5:oppervlakte 999999;
+    ns5:oppervlakte 5029;
+    ogcgs:hasGeometry n4:F1E308BC12191C2AE4B6B2D2286AE153;
+    rdfs:label "Verblijfsobject 0546010000018993"@nl
+.
+n2:0546010000031903 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000031903;
+    ns5:oppervlakte 2061;
+    ns5:oppervlakte 2056;
+    ns5:oppervlakte 2165;
+    ogcgs:hasGeometry n4:83F7FD7FA85DAFC48BE1FDDA65B9FABC;
+    rdfs:label "Verblijfsobject 0546010000031903"@nl
+.
+n2:0546010000035551 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000035551;
+    ns5:oppervlakte 1066;
+    ns5:oppervlakte 1095;
+    ns5:oppervlakte 999999;
+    ogcgs:hasGeometry n4:2F7FD584B440BBD4CC812211F47A8059;
+    rdfs:label "Verblijfsobject 0546010000035551"@nl
+.
+n2:0546010000035837 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000035837;
+    ns5:oppervlakte 1528;
+    ns5:oppervlakte 1765;
+    ogcgs:hasGeometry n4:400F4DA3DC4BAA6155603AB5586BD45A;
+    rdfs:label "Verblijfsobject 0546010000035837"@nl
+.
+n2:0546010000041408 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000041408;
+    ns5:oppervlakte 2871;
+    ogcgs:hasGeometry n4:402EF32C45E4205786C901220FA8F47D;
+    rdfs:label "Verblijfsobject 0546010000041408"@nl
+.
+n2:0546010000042804 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000042804;
+    ns5:oppervlakte 2208;
+    ns5:oppervlakte 1142;
+    ns5:oppervlakte 2156;
+    ogcgs:hasGeometry n4:9698544A4C5837885FA9778C72E890CA;
+    rdfs:label "Verblijfsobject 0546010000042804"@nl
+.
+n2:0546010000047627 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000047627;
+    ns5:oppervlakte 1708;
+    ns5:oppervlakte 1412;
+    ns5:oppervlakte 1836;
+    ogcgs:hasGeometry n4:A673EED3E67740BEB73C8FC1A62DFA73;
+    rdfs:label "Verblijfsobject 0546010000047627"@nl
+.
+n2:0546010000053718 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000053718;
+    ns5:oppervlakte 1226;
+    ns5:oppervlakte 1139;
+    ogcgs:hasGeometry n4:7CA4E7CE3B90084F27CCF7DF3B5A887F;
+    rdfs:label "Verblijfsobject 0546010000053718"@nl
+.
+n2:0546010000053753 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000053753;
+    ns5:oppervlakte 1064;
+    ogcgs:hasGeometry n4:EAA35981621C6A867169C42D9A7578A5;
+    rdfs:label "Verblijfsobject 0546010000053753"@nl
+.
+n2:0546010000059316 a ns5:Verblijfsobject, ns5:VerblijfsobjectOverigeGebruiksfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000059316;
+    ns5:oppervlakte 11;
+    ns5:oppervlakte 5;
+    ogcgs:hasGeometry n4:61A30FF1B78E87A0178A6FA2A522B194;
+    rdfs:label "Verblijfsobject 0546010000059316"@nl
+.
+n2:0546010000059427 a ns5:Verblijfsobject, ns5:VerblijfsobjectOverigeGebruiksfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000059427;
+    ns5:oppervlakte 10;
+    ns5:oppervlakte 6;
+    ogcgs:hasGeometry n4:DF951F795143006218B7E0E1A3EB1134;
+    rdfs:label "Verblijfsobject 0546010000059427"@nl
+.
+n2:0546010000063060 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000063104;
+    ns5:oppervlakte 3027;
+    ogcgs:hasGeometry n4:7AE07D66F44AF23ACEBF5F493C8C0C3F;
+    rdfs:label "Verblijfsobject 0546010000063060"@nl
+.
+n2:0546010000063061 a ns5:Verblijfsobject, ns5:VerblijfsobjectBijeenkomstfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000063105;
+    ns5:oppervlakte 1363;
+    ogcgs:hasGeometry n4:99F2A1EB452423E27F78C2DF35808B83;
+    rdfs:label "Verblijfsobject 0546010000063061"@nl
+.
+n2:0546010000064051 a ns5:Verblijfsobject, ns5:VerblijfsobjectWoonfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000064129;
+    ns5:oppervlakte 74;
+    ogcgs:hasGeometry n4:080F9920AAB56B601AE8E6C3D5E579EE;
+    rdfs:label "Verblijfsobject 0546010000064051"@nl
+.
+n2:0546010000064148 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000064226;
+    ns5:oppervlakte 99;
+    ogcgs:hasGeometry n4:8129756912CC5E8E6353C4945A80554F;
+    ogcgs:hasGeometry n4:C9525C3B7026FCCB52333B1C381304D2;
+    rdfs:label "Verblijfsobject 0546010000064148"@nl
+.
+n2:0546010000064150 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000064228;
+    ns5:oppervlakte 99;
+    ns5:oppervlakte 319;
+    ogcgs:hasGeometry n4:BFAD178CCD2C7990866377DFDB7BFB55;
+    rdfs:label "Verblijfsobject 0546010000064150"@nl
+.
+n2:0546010000064151 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000064229;
+    ns5:oppervlakte 1718;
+    ns5:oppervlakte 99;
+    ogcgs:hasGeometry n4:64523136E1B3F108A5558B3162DD163E;
+    rdfs:label "Verblijfsobject 0546010000064151"@nl
+.
+n2:0546010000072220 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000072495;
+    ns5:oppervlakte 560;
+    ogcgs:hasGeometry n4:DDBBECE24B689B5C418A15BF6EE2ED2D;
+    rdfs:label "Verblijfsobject 0546010000072220"@nl
+.
+n2:0546010000072221 a ns5:Verblijfsobject, ns5:VerblijfsobjectOnderwijsfunctie, ogcgs:Feature;
+    ns5:hoofdadres n3:0546200000072496;
+    ns5:oppervlakte 896;
+    ogcgs:hasGeometry n4:D1987AD906BE250293F4CE79EE03E242;
+    rdfs:label "Verblijfsobject 0546010000072221"@nl
+.
+n1:04PN a ns4:School;
+    ns4:adres n3:0546200000008527;
+    ns4:brinNummer "04PN"^^xsd:string;
+    ns4:deonominatie "Algemeen bijzonder"^^xsd:string;
+    ns4:huisnummer 129;
+    ns4:internetadres "www.haanstraschool.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2311GM"^^xsd:string;
+    ns4:straatnaam "Rapenburg"^^xsd:string;
+    rdfs:label "Haanstra Basisschool"^^xsd:string
+.
+n1:06UT a ns4:School;
+    ns4:adres n3:0546200000005128;
+    ns4:brinNummer "06UT"^^xsd:string;
+    ns4:deonominatie "Antroposofisch"^^xsd:string;
+    ns4:huisnummer 19;
+    ns4:internetadres "www.vsmareland.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2316HA"^^xsd:string;
+    ns4:straatnaam "Maresingel"^^xsd:string;
+    rdfs:label "Vrije School Mareland"^^xsd:string
+.
+n1:08CJ a ns4:School;
+    ns4:adres n3:0546200000047627;
+    ns4:brinNummer "08CJ"^^xsd:string;
+    ns4:deonominatie "Algemeen bijzonder"^^xsd:string;
+    ns4:huisnummer 12;
+    ns4:internetadres "www.eersteleidseschool.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2332AX"^^xsd:string;
+    ns4:straatnaam "P.C. Hooftlaan"^^xsd:string;
+    rdfs:label "Eerste Leidse Schoolvereniging"^^xsd:string
+.
+n1:14MM a ns4:School;
+    ns4:adres n3:0546200000005442;
+    ns4:brinNummer "14MM"^^xsd:string;
+    ns4:deonominatie "Openbaar"^^xsd:string;
+    ns4:huisnummer 1;
+    ns4:internetadres "www.morskring.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2332XG"^^xsd:string;
+    ns4:straatnaam "Damlaan"^^xsd:string;
+    rdfs:label "De Morskring"^^xsd:string
+.
+n1:15IC a ns4:School;
+    ns4:adres n3:0546200000042804;
+    ns4:brinNummer "15IC"^^xsd:string;
+    ns4:deonominatie "Openbaar"^^xsd:string;
+    ns4:huisnummer 3;
+    ns4:internetadres "www.montessorischoolapollo.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2324BG"^^xsd:string;
+    ns4:straatnaam "Strausspad"^^xsd:string;
+    rdfs:label "Montessorischool Apollo"^^xsd:string
+.
+n1:15KV a ns4:School;
+    ns4:adres n3:0546200000041408;
+    ns4:brinNummer "15KV"^^xsd:string;
+    ns4:deonominatie "Openbaar"^^xsd:string;
+    ns4:huisnummer 48;
+    ns4:internetadres "www.teldersschool.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2321TE"^^xsd:string;
+    ns4:straatnaam "Telderskade"^^xsd:string;
+    rdfs:label "Telders"^^xsd:string
+.
+n1:15NJ a ns4:School;
+    ns4:adres n3:0546200000010439;
+    ns4:brinNummer "15NJ"^^xsd:string;
+    ns4:deonominatie "Openbaar"^^xsd:string;
+    ns4:huisnummer 20;
+    ns4:internetadres "www.lucasvanleyden.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2311RE"^^xsd:string;
+    ns4:straatnaam "Vliet"^^xsd:string;
+    rdfs:label "Lucas V Leyden"^^xsd:string
+.
+n1:15PX a ns4:School;
+    ns4:adres n3:0546200000031903;
+    ns4:brinNummer "15PX"^^xsd:string;
+    ns4:deonominatie "Openbaar"^^xsd:string;
+    ns4:huisnummer 1;
+    ns4:internetadres "www.obs-merenwijk.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2317AN"^^xsd:string;
+    ns4:straatnaam "Valkenpad"^^xsd:string;
+    rdfs:label "Brede School Merenwijk"^^xsd:string
+.
+n1:15SH a ns4:School;
+    ns4:adres n3:0546200000008344;
+    ns4:brinNummer "15SH"^^xsd:string;
+    ns4:deonominatie "Openbaar"^^xsd:string;
+    ns4:huisnummer 5;
+    ns4:internetadres "www.de-meerpaal.leiden.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2318TJ"^^xsd:string;
+    ns4:straatnaam "Broekplein"^^xsd:string;
+    rdfs:label "De Meerpaal"^^xsd:string
+.
+n1:15UO a ns4:School;
+    ns4:adres n3:0546200000035837;
+    ns4:brinNummer "15UO"^^xsd:string;
+    ns4:deonominatie "Openbaar"^^xsd:string;
+    ns4:huisnummer 7;
+    ns4:internetadres "www.dukdalf-leiden.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2317XK"^^xsd:string;
+    ns4:straatnaam "Regenboogpad"^^xsd:string;
+    rdfs:label "De Dukdalf"^^xsd:string
+.
+n1:15WV a ns4:School;
+    ns4:adres n3:0546200000064229;
+    ns4:brinNummer "15WV"^^xsd:string;
+    ns4:deonominatie "Openbaar"^^xsd:string;
+    ns4:huisnummer 8;
+    ns4:internetadres "www.obsviersprong.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2315HG"^^xsd:string;
+    ns4:straatnaam "Bonaireplein"^^xsd:string;
+    rdfs:label "De Viersprong"^^xsd:string
+.
+n1:15YY a ns4:School;
+    ns4:adres n3:0546200000010642;
+    ns4:brinNummer "15YY"^^xsd:string;
+    ns4:deonominatie "Openbaar"^^xsd:string;
+    ns4:huisnummer 4;
+    ns4:internetadres "www.obsdestevenshof.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2331DV"^^xsd:string;
+    ns4:straatnaam "Antoinette Kleynstraat"^^xsd:string;
+    rdfs:label "De Stevenshof"^^xsd:string
+.
+n1:16AU a ns4:School;
+    ns4:adres n3:0546200000018993;
+    ns4:adres n3:0546200000059316;
+    ns4:brinNummer "16AU"^^xsd:string;
+    ns4:deonominatie "Openbaar"^^xsd:string;
+    ns4:huisnummer 17;
+    ns4:internetadres "www.lorentzschool.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2313GG"^^xsd:string;
+    ns4:straatnaam "Van Vollenhovenkade"^^xsd:string;
+    rdfs:label "Lorentz"^^xsd:string
+.
+n1:17MJ a ns4:School;
+    ns4:adres n3:0546200000053718;
+    ns4:adres n3:0546200000059427;
+    ns4:adres n3:0546200000064129;
+    ns4:adres n3:0546200000064226;
+    ns4:brinNummer "17MJ"^^xsd:string;
+    ns4:deonominatie "Protestants-Christelijk"^^xsd:string;
+    ns4:huisnummer 1;
+    ns4:huisnummer 4;
+    ns4:internetadres "www.springplank.pcsl.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2334CG"^^xsd:string;
+    ns4:postcode "2315HG"^^xsd:string;
+    ns4:straatnaam "Bonaireplein"^^xsd:string;
+    ns4:straatnaam "Adriaan Pauwstraat"^^xsd:string;
+    rdfs:label "De Leidse Houtschool"^^xsd:string;
+    rdfs:label "De Springplank"^^xsd:string
+.
+n1:17MY a ns4:School;
+    ns4:adres n3:0546200000018992;
+    ns4:brinNummer "17MY"^^xsd:string;
+    ns4:deonominatie "Protestants-Christelijk"^^xsd:string;
+    ns4:huisnummer 15;
+    ns4:internetadres "www.roomburg.pcsl.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2313GG"^^xsd:string;
+    ns4:straatnaam "Van Vollenhovenkade"^^xsd:string;
+    rdfs:label "Basisschool Joppensz"^^xsd:string
+.
+n1:17NV a ns4:School;
+    ns4:adres n3:0546200000035551;
+    ns4:brinNummer "17NV"^^xsd:string;
+    ns4:deonominatie "Protestants-Christelijk"^^xsd:string;
+    ns4:huisnummer 1;
+    ns4:internetadres "www.zijlwijk.pcsl.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2317VX"^^xsd:string;
+    ns4:straatnaam "Schaduwpad"^^xsd:string;
+    rdfs:label "Zylwyk"^^xsd:string
+.
+n1:17OZ a ns4:School;
+    ns4:adres n3:0546200000001316;
+    ns4:brinNummer "17OZ"^^xsd:string;
+    ns4:deonominatie "Protestants-Christelijk"^^xsd:string;
+    ns4:huisnummer 8;
+    ns4:internetadres "www.dezwaluw.pcsleiden.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2331DV"^^xsd:string;
+    ns4:straatnaam "Antoinette Kleynstraat"^^xsd:string;
+    rdfs:label "De Zwaluw"^^xsd:string
+.
+n1:17QS a ns4:School;
+    ns4:adres n3:0546200000005308;
+    ns4:brinNummer "17QS"^^xsd:string;
+    ns4:deonominatie "Protestants-Christelijk"^^xsd:string;
+    ns4:huisnummer 119;
+    ns4:internetadres "www.daltonschoolleiden.pcsleiden.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2321TZ"^^xsd:string;
+    ns4:straatnaam "Boshuizerkade"^^xsd:string;
+    rdfs:label "Daltonschool Leiden"^^xsd:string
+.
+n1:20UL a ns4:School;
+    ns4:adres n3:0546200000010632;
+    ns4:brinNummer "20UL"^^xsd:string;
+    ns4:deonominatie "Rooms-Katholiek"^^xsd:string;
+    ns4:huisnummer 6;
+    ns4:internetadres "www.t-klankbord.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2331DV"^^xsd:string;
+    ns4:straatnaam "Antoinette Kleynstraat"^^xsd:string;
+    rdfs:label "Roomskatholieke Basisschool 'T Klankbord"^^xsd:string
+.
+n1:20UW a ns4:School;
+    ns4:adres n3:0546200000005228;
+    ns4:brinNummer "20UW"^^xsd:string;
+    ns4:deonominatie "Rooms-Katholiek"^^xsd:string;
+    ns4:huisnummer 1;
+    ns4:internetadres "www.tweemasterleiden.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2318TJ"^^xsd:string;
+    ns4:straatnaam "Broekplein"^^xsd:string;
+    rdfs:label "Roomskatholieke Basisschool De Tweemaster"^^xsd:string
+.
+n1:20VB a ns4:School;
+    ns4:adres n3:0546200000063104;
+    ns4:adres n3:0546200000063105;
+    ns4:brinNummer "20VB"^^xsd:string;
+    ns4:deonominatie "Rooms-Katholiek"^^xsd:string;
+    ns4:huisnummer 8;
+    ns4:internetadres "www.josephschool.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2313JE"^^xsd:string;
+    ns4:straatnaam "Oppenheimstraat"^^xsd:string;
+    rdfs:label "Roomskatholieke Basisschool Sint Joseph-School"^^xsd:string
+.
+n1:20VD a ns4:School;
+    ns4:adres n3:0546200000005930;
+    ns4:brinNummer "20VD"^^xsd:string;
+    ns4:deonominatie "Rooms-Katholiek"^^xsd:string;
+    ns4:huisnummer 22;
+    ns4:internetadres "www.pacellischool.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2332XH"^^xsd:string;
+    ns4:straatnaam "Damlaan"^^xsd:string;
+    rdfs:label "Roomskatholieke Basisschool Pacelli-School"^^xsd:string
+.
+n1:20VF a ns4:School;
+    ns4:adres n3:0546200000064228;
+    ns4:brinNummer "20VF"^^xsd:string;
+    ns4:deonominatie "Rooms-Katholiek"^^xsd:string;
+    ns4:huisnummer 7;
+    ns4:internetadres "www.singelleiden.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2315HG"^^xsd:string;
+    ns4:straatnaam "Bonaireplein"^^xsd:string;
+    rdfs:label "Roomskatholieke Basisschool De Singel"^^xsd:string
+.
+n1:21QE a ns4:School;
+    ns4:adres n3:0546200000053753;
+    ns4:brinNummer "21QE"^^xsd:string;
+    ns4:deonominatie "Openbaar"^^xsd:string;
+    ns4:huisnummer 60;
+    ns4:internetadres "www.woutertjepieterse.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2334CL"^^xsd:string;
+    ns4:straatnaam "Houtlaan"^^xsd:string;
+    rdfs:label "Woutertje Pieterse"^^xsd:string
+.
+n1:22KG a ns4:School;
+    ns4:adres n3:0546200000003980;
+    ns4:brinNummer "22KG"^^xsd:string;
+    ns4:deonominatie "Openbaar"^^xsd:string;
+    ns4:huisnummer 2;
+    ns4:internetadres "www.annefrankleiden.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2331PD"^^xsd:string;
+    ns4:straatnaam "Zuster Meijboomstraat"^^xsd:string;
+    rdfs:label "Anne Frank"^^xsd:string
+.
+n1:24DH a ns4:School;
+    ns4:adres n3:0546200000017546;
+    ns4:adres n3:0546200000017552;
+    ns4:adres n3:0546200000072495;
+    ns4:adres n3:0546200000072496;
+    ns4:brinNummer "24DH"^^xsd:string;
+    ns4:deonominatie "Islamitisch"^^xsd:string;
+    ns4:huisnummer 1;
+    ns4:internetadres "www.ibs-erriseleh.nl"^^xsd:string;
+    ns4:plaatsnaam "LEIDEN"^^xsd:string;
+    ns4:postcode "2313AB"^^xsd:string;
+    ns4:straatnaam "Stadhouderslaan"^^xsd:string;
+    rdfs:label "Islamitische Basisschool Er Riseleh"^^xsd:string
+.

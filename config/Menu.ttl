@@ -1,0 +1,31 @@
+@prefix stage: <http://kadaster.localhost/stage#>.
+@prefix elmo: <http://bp4mc2.org/elmo/def#>.
+@prefix html: <http://www.w3.org/1999/xhtml/vocab#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+stage:Menu a elmo:Part;
+	elmo:appearance elmo:NavbarSearchAppearance;
+	elmo:index "~";
+	elmo:data [
+		rdfs:label "Kadaster Demo";
+		elmo:data [ elmo:index "1"; rdfs:label "Graph demo"; html:link "/query/graph"]
+	];
+.
+stage:LocalMenu a elmo:Part;
+	elmo:appearance elmo:NavbarSearchAppearance;
+	elmo:index "~";
+	elmo:data [
+		rdfs:label "Kadaster Demo";
+		elmo:data [ elmo:index "1"; rdfs:label "Graph demo"; html:link "query/local/graph?subject=http%3A%2F%2Fbgtld-test.geostandaarden.nl%2Fwoz%2Fid%2Fobject%2F054619157857"];
+		elmo:data [ elmo:index "2"; rdfs:label "Architectuur"; html:link "query/architectuur"];
+		elmo:data [
+			elmo:index "3";
+			rdfs:label "Sites";
+			elmo:data [elmo:index "1"; rdfs:label "PDOK Geodata platform"; html:link "https://data.pdok.nl"];
+			elmo:data [elmo:index "2"; rdfs:label "BRT"; html:link "https://brt.basisregistraties.overheid.nl"];
+			elmo:data [elmo:index "3"; rdfs:label "BRK/DKK"; html:link "https://brk.basisregistraties.overheid.nl"];
+			elmo:data [elmo:index "4"; rdfs:label "BAG"; html:link "https://bag.basisregistraties.overheid.nl"];
+		];
+		elmo:data [ elmo:index "4"; rdfs:label "Video"; html:link "query/video"];
+	];
+.

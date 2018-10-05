@@ -3,6 +3,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix bagdef: <http://bag.kadaster.nl/def#>.
 @prefix ogcgs: <http://www.opengis.net/ont/geosparql#>.
+@prefix html: <http://www.w3.org/1999/xhtml/vocab#>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix ns5: <http://www.kenniskluis.nl/som/def#>.
@@ -273,7 +274,8 @@ n6:054619157857 rdf:type ns9:Object;
     ns9:pand n11:0546100000042977;
     ns9:typeGebouw "Praktijkruimte";
     ns9:verblijfsobject n10:0546010000019388;
-    ns9:waarde "1734000"
+    ns9:waarde "1734000";
+    html:img "https://www.erfgoedleiden.nl/component/lei_files/thumbnail/size/groot/id/781";
 .
 n7:30 rdf:type ns9:Gebruikscode;
     rdfs:label "niet-woning"

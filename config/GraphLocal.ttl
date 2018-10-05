@@ -236,14 +236,11 @@ stage:LocalGraph	a	elmo:Representation;
 			<@SUBJECT@> rdfs:label ?slabel.
 			<@SUBJECT@> elmo:style ?stype.
 			<@SUBJECT@> ?p ?o.
-			<@SUBJECT@> html:img "/images/black.png".
 			?o ?opp ?oppo.
 			?o elmo:style ?otype.
-#			?o html:img ?oimg.
 			?os ?op <@SUBJECT@>.
 			?os rdfs:label ?oslabel.
 			?os elmo:style ?ostype.
-#			?os html:img "/images/black.png".
 			?os ?osp ?ospo.
 			owl:Class elmo:name "klasse".
 			skos:Concept elmo:name "begrip".
@@ -273,9 +270,6 @@ stage:LocalGraph	a	elmo:Representation;
 				FILTER (?p!=<http://www.opengis.net/ont/geosparql#hasGeometry> && ?o!=owl:Class && ?o!=<http://www.kenniskluis.nl/som/def#Begrip>)
 				OPTIONAL {
 					?o rdf:type ?otype
-				}
-				OPTIONAL {
-					?o html:img ?oimg
 				}
 				OPTIONAL {
 					?o ?opp ?oppo

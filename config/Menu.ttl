@@ -15,9 +15,10 @@ stage:LocalMenu a elmo:Part;
 	elmo:appearance elmo:NavbarSearchAppearance;
 	elmo:index "~";
 	elmo:data [
-		rdfs:label "Kadaster Demo";
-		elmo:data [ elmo:index "1"; rdfs:label "Graph demo"; html:link "query/local/graph?subject=http%3A%2F%2Fbgtld-test.geostandaarden.nl%2Fwoz%2Fid%2Fobject%2F054619157857"];
-		elmo:data [ elmo:index "2"; rdfs:label "Architectuur"; html:link "query/architectuur"];
+		rdfs:label "Demo";
+		elmo:data [ elmo:index "1"; rdfs:label "Huis kopen"; html:link "query/local/graph?subject=http%3A%2F%2Fbgtld-test.geostandaarden.nl%2Fwoz%2Fid%2Fobject%2F054619157857"];
+		elmo:data [ elmo:index "2"; rdfs:label "Scholen"; html:link "query/pandschool?subject=http%3A%2F%2Fbag.kadaster.nl%2Fid%2Fpand%2F0546100000042977"];
+		elmo:data [ elmo:index "3"; rdfs:label "Architectuur"; html:link "query/architectuur"];
 		elmo:data [
 			elmo:index "3";
 			rdfs:label "Sites";

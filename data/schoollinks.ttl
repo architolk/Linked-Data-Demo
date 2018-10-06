@@ -1,0 +1,6 @@
+@prefix duo: <http://localhost:8080/demo/def/duo#>.
+
+<http://localhost:8080/demo/id/school/16AU> duo:postcodegebied <http://bag.kadaster.nl/id/nummeraanduiding/0546200000019388>.
+<http://localhost:8080/demo/id/school/24DH> duo:postcodegebied <http://bag.kadaster.nl/id/nummeraanduiding/0546200000019388>.
+<http://localhost:8080/demo/id/school/17MY> duo:postcodegebied <http://bag.kadaster.nl/id/nummeraanduiding/0546200000019388>.
+<http://localhost:8080/demo/id/school/20VB> duo:postcodegebied <http://bag.kadaster.nl/id/nummeraanduiding/0546200000019388>.

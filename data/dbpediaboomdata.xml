@@ -3331,22 +3331,24 @@
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Species"/>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haagbeuk</rdfs:label>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De haagbeuk (Carpinus betulus), helzenteer, hesselteer, steenbeuk, jukbeuk of wielboom is een 15-25 m hoge boom uit de berkenfamilie (Betulaceae).</dbpedia-owl:abstract>
-    <html:img rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://commons.wikimedia.org/wiki/Special:FilePath/Carpinus_betulus_-_Hunsrück_001.jpg?width=100</html:img>
-<!--
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De haagbeuk (Carpinus betulus), helzenteer, hesselteer, steenbeuk, jukbeuk of wielboom is een 15-25 m hoge boom uit de berkenfamilie (Betulaceae).</rdfs:comment>
-    <dbpedia-owl:authority rdf:resource="http://nl.dbpedia.org/resource/Carolus_Linnaeus"/>
+    <html:img rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://commons.wikimedia.org/wiki/Special:FilePath/Carpinus_betulus_-_Hunsrück_001.jpg?width=200</html:img>
     <dbpedia-owl:classis rdf:resource="http://nl.dbpedia.org/resource/Spermatopsida"/>
     <dbpedia-owl:domain rdf:resource="http://nl.dbpedia.org/resource/Planten"/>
     <dbpedia-owl:family rdf:resource="http://nl.dbpedia.org/resource/Betulaceae"/>
     <dbpedia-owl:genus rdf:resource="http://nl.dbpedia.org/resource/Carpinus"/>
-    <dbpedia-owl:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haagbeuk</dbpedia-owl:name>
     <dbpedia-owl:order rdf:resource="http://nl.dbpedia.org/resource/Fagales"/>
+    <dbpedia-owl:tribus rdf:resource="http://nl.dbpedia.org/resource/Embryophyta"/>
+    <dcterms:subject rdf:resource="http://nl.dbpedia.org/resource/Categorie:Berkenfamilie"/>
+    <dcterms:subject rdf:resource="http://nl.dbpedia.org/resource/Categorie:Boom_(plant)"/>
+<!--
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De haagbeuk (Carpinus betulus), helzenteer, hesselteer, steenbeuk, jukbeuk of wielboom is een 15-25 m hoge boom uit de berkenfamilie (Betulaceae).</rdfs:comment>
+    <dbpedia-owl:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haagbeuk</dbpedia-owl:name>
+    <dbpedia-owl:authority rdf:resource="http://nl.dbpedia.org/resource/Carolus_Linnaeus"/>
     <dbpedia-owl:pictureDescription rdf:resource="http://nl.dbpedia.org/resource/Kilsdonkse_Molen"/>
     <dbpedia-owl:picturesCommonsCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category:Carpinus betulus</dbpedia-owl:picturesCommonsCategory>
     <dbpedia-owl:scientificName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carpinus betulus</dbpedia-owl:scientificName>
     <dbpedia-owl:taxon rdf:resource="http://nl.dbpedia.org/resource/Soort"/>
-    <dbpedia-owl:tribus rdf:resource="http://nl.dbpedia.org/resource/Embryophyta"/>
     <dbpedia-owl:wikiPageEditLink rdf:resource="http://nl.wikipedia.org/w/index.php?title=Haagbeuk&amp;action=edit"/>
     <dbpedia-owl:wikiPageExternalLink rdf:resource="http://flora.instnat.be/"/>
     <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.funet.fi/pub/sci/bio/life/plants/magnoliophyta/magnoliophytina/magnoliopsida/betulaceae/carpinus/index.html"/>
@@ -3358,8 +3360,6 @@
     <dbpedia-owl:wikiPageOutDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">60</dbpedia-owl:wikiPageOutDegree>
     <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44965873</dbpedia-owl:wikiPageRevisionID>
     <dbpedia-owl:wikiPageRevisionLink rdf:resource="http://nl.wikipedia.org/w/index.php?title=Haagbeuk&amp;oldid=44965873"/>
-    <dcterms:subject rdf:resource="http://nl.dbpedia.org/resource/Categorie:Berkenfamilie"/>
-    <dcterms:subject rdf:resource="http://nl.dbpedia.org/resource/Categorie:Boom_(plant)"/>
     <foaf:isPrimaryTopicOf rdf:resource="http://nl.wikipedia.org/wiki/Haagbeuk"/>
     <prop-nl:afbeelding rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carpinus betulus - Hunsrück 001.jpg</prop-nl:afbeelding>
     <prop-nl:afbeeldingii rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haagbeuk_met_vruchten.jpg</prop-nl:afbeeldingii>
@@ -4009,22 +4009,25 @@
     <prop-nl:wikiPageUsesTemplate rdf:resource="http://nl.dbpedia.org/resource/Sjabloon:Taxobox"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Meidoorn">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Species"/>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meidoorn</rdfs:label>
-    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meidoorn (Crataegus) is een geslacht uit de rozenfamilie (Rosaceae). Het geslacht wordt ook wel haagdoorn of steendoorn genoemd. Het zijn struiken die van nature in Europa, Noord-Amerika, Azië en Noord-Afrika voorkomen. Sommige soorten komen ook als boom voor. De meidoorn werd vanwege de doornen op de takken veel gebruikt in hagen als afscheiding voor het vee. Op sommige plaatsen zoals in het gebied de Maasheggen in Nederlands Limburg is dat nog goed te zien.</rdfs:comment>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meidoorn (Crataegus) is een geslacht uit de rozenfamilie (Rosaceae). Het geslacht wordt ook wel haagdoorn of steendoorn genoemd. Het zijn struiken die van nature in Europa, Noord-Amerika, Azië en Noord-Afrika voorkomen. Sommige soorten komen ook als boom voor. De meidoorn werd vanwege de doornen op de takken veel gebruikt in hagen als afscheiding voor het vee. Op sommige plaatsen zoals in het gebied de Maasheggen in Nederlands Limburg is dat nog goed te zien. Het hout is hard en fijn van structuur.Het geslacht omvat honderden soorten, daarvan komen in de Benelux drie soorten inheems voor. Dit zijn de eenstijlige meidoorn (Crataegus monogyna , synoniem: Crataegus oxycantha), de tweestijlige meidoorn (Crataegus laevigata) en de koraalmeidoorn (Crataegus rhipidophylla synoniem Crataegus rosiformis). Er komt ook een hybride van eenstijlige en tweestijlige meidoorn in het wild voor, de Crataegus ×macrocarpa. Daarnaast worden de hybriden Crataegus ×lavalleei en de uit China afkomstige Crataegus persimilis als sierboom in aangeplant.</dbpedia-owl:abstract>
-    <dbpedia-owl:authority rdf:resource="http://nl.dbpedia.org/resource/Carolus_Linnaeus"/>
     <dbpedia-owl:classis rdf:resource="http://nl.dbpedia.org/resource/Spermatopsida"/>
     <dbpedia-owl:domain rdf:resource="http://nl.dbpedia.org/resource/Planten"/>
     <dbpedia-owl:family rdf:resource="http://nl.dbpedia.org/resource/Rosaceae"/>
-    <dbpedia-owl:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meidoorn</dbpedia-owl:name>
     <dbpedia-owl:order rdf:resource="http://nl.dbpedia.org/resource/Rosales_(orde)"/>
+    <dbpedia-owl:taxon rdf:resource="http://nl.dbpedia.org/resource/Geslacht_(biologie)"/>
+    <dbpedia-owl:tribus rdf:resource="http://nl.dbpedia.org/resource/Embryophyta"/>
+    <dcterms:subject rdf:resource="http://nl.dbpedia.org/resource/Categorie:Rozenfamilie"/>
+    <html:img rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://commons.wikimedia.org/wiki/Special:FilePath/Illustration_Crataegus_laevigata1.jpg?width=200</html:img>
+<!--
+<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meidoorn (Crataegus) is een geslacht uit de rozenfamilie (Rosaceae). Het geslacht wordt ook wel haagdoorn of steendoorn genoemd. Het zijn struiken die van nature in Europa, Noord-Amerika, Azië en Noord-Afrika voorkomen. Sommige soorten komen ook als boom voor. De meidoorn werd vanwege de doornen op de takken veel gebruikt in hagen als afscheiding voor het vee. Op sommige plaatsen zoals in het gebied de Maasheggen in Nederlands Limburg is dat nog goed te zien.</rdfs:comment>
+    <dbpedia-owl:authority rdf:resource="http://nl.dbpedia.org/resource/Carolus_Linnaeus"/>
+    <dbpedia-owl:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meidoorn</dbpedia-owl:name>
     <dbpedia-owl:picture rdf:resource="http://nl.dbpedia.org/resource/Eenstijlige_meidoorn"/>
     <dbpedia-owl:pictureDescription rdf:resource="http://nl.dbpedia.org/resource/Eenstijlige_meidoorn"/>
     <dbpedia-owl:scientificName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crataegus</dbpedia-owl:scientificName>
-    <dbpedia-owl:taxon rdf:resource="http://nl.dbpedia.org/resource/Geslacht_(biologie)"/>
-    <dbpedia-owl:tribus rdf:resource="http://nl.dbpedia.org/resource/Embryophyta"/>
     <dbpedia-owl:wikiPageEditLink rdf:resource="http://nl.wikipedia.org/w/index.php?title=Meidoorn&amp;action=edit"/>
     <dbpedia-owl:wikiPageExtracted rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-09T17:16:45Z</dbpedia-owl:wikiPageExtracted>
     <dbpedia-owl:wikiPageHistoryLink rdf:resource="http://nl.wikipedia.org/w/index.php?title=Meidoorn&amp;action=history"/>
@@ -4034,9 +4037,7 @@
     <dbpedia-owl:wikiPageOutDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">46</dbpedia-owl:wikiPageOutDegree>
     <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45288060</dbpedia-owl:wikiPageRevisionID>
     <dbpedia-owl:wikiPageRevisionLink rdf:resource="http://nl.wikipedia.org/w/index.php?title=Meidoorn&amp;oldid=45288060"/>
-    <dcterms:subject rdf:resource="http://nl.dbpedia.org/resource/Categorie:Rozenfamilie"/>
     <foaf:isPrimaryTopicOf rdf:resource="http://nl.wikipedia.org/wiki/Meidoorn"/>
-    <prop-nl:afbeelding rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crataegus monogyna, eenstijlige meidoorn .jpg</prop-nl:afbeelding>
     <prop-nl:afbeeldingtekst rdf:resource="http://nl.dbpedia.org/resource/Eenstijlige_meidoorn"/>
     <prop-nl:auteur rdf:resource="http://nl.dbpedia.org/resource/Carolus_Linnaeus"/>
     <prop-nl:clade rdf:resource="http://nl.dbpedia.org/resource/Bedektzadigen"/>
@@ -4055,6 +4056,7 @@
     <prop-nl:wikiPageUsesTemplate rdf:resource="http://nl.dbpedia.org/resource/Sjabloon:Commonscat"/>
     <prop-nl:wikiPageUsesTemplate rdf:resource="http://nl.dbpedia.org/resource/Sjabloon:Taxobox"/>
     <prop-nl:wikiPageUsesTemplate rdf:resource="http://nl.dbpedia.org/resource/Sjabloon:Navigatie_Rosaceae"/>
+-->
   </rdf:Description>
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Melinia">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
@@ -4199,19 +4201,24 @@
     <prop-nl:wikiPageUsesTemplate rdf:resource="http://nl.dbpedia.org/resource/Sjabloon:Link_NCBI"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Peer_(plant)">
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Species"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peer (plant)</rdfs:label>
-    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peer, Pyrus, is een plantengeslacht dat de algemeen bekende vruchten produceert. Het geslacht komt voor in veel landen, vooral op het noordelijk halfrond.</rdfs:comment>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Species"/>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peer, Pyrus, is een plantengeslacht dat de algemeen bekende vruchten produceert. Het geslacht komt voor in veel landen, vooral op het noordelijk halfrond.</dbpedia-owl:abstract>
-    <dbpedia-owl:authority rdf:resource="http://nl.dbpedia.org/resource/Carolus_Linnaeus"/>
     <dbpedia-owl:classis rdf:resource="http://nl.dbpedia.org/resource/Zaadplanten"/>
     <dbpedia-owl:domain rdf:resource="http://nl.dbpedia.org/resource/Planten"/>
-    <dbpedia-owl:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peer</dbpedia-owl:name>
     <dbpedia-owl:order rdf:resource="http://nl.dbpedia.org/resource/Rosales_(orde)"/>
+    <dbpedia-owl:tribus rdf:resource="http://nl.dbpedia.org/resource/Embryophyta"/>
+    <dcterms:subject rdf:resource="http://nl.dbpedia.org/resource/Categorie:Peer_(vrucht)"/>
+    <dcterms:subject rdf:resource="http://nl.dbpedia.org/resource/Categorie:Rozenfamilie"/>
+    <dcterms:subject rdf:resource="http://nl.dbpedia.org/resource/Categorie:Cultuurgewas"/>
+    <html:img rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://commons.wikimedia.org/wiki/Special:FilePath/Pyrus_communis_(Perenboomgaard).jpg?width=200</html:img>
+  <!--
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peer, Pyrus, is een plantengeslacht dat de algemeen bekende vruchten produceert. Het geslacht komt voor in veel landen, vooral op het noordelijk halfrond.</rdfs:comment>
+    <dbpedia-owl:authority rdf:resource="http://nl.dbpedia.org/resource/Carolus_Linnaeus"/>
+    <dbpedia-owl:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peer</dbpedia-owl:name>
     <dbpedia-owl:picturesCommonsCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyrus communis</dbpedia-owl:picturesCommonsCategory>
     <dbpedia-owl:scientificName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyrus communis</dbpedia-owl:scientificName>
-    <dbpedia-owl:tribus rdf:resource="http://nl.dbpedia.org/resource/Embryophyta"/>
     <dbpedia-owl:wikiPageEditLink rdf:resource="http://nl.wikipedia.org/w/index.php?title=Peer_(plant)&amp;action=edit"/>
     <dbpedia-owl:wikiPageExternalLink rdf:resource="http://library.wur.nl/speccol/fruithof/fruit/Pee/IndAlf/Pealf.htm"/>
     <dbpedia-owl:wikiPageExtracted rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-26T11:37:31Z</dbpedia-owl:wikiPageExtracted>
@@ -4222,11 +4229,7 @@
     <dbpedia-owl:wikiPageOutDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">74</dbpedia-owl:wikiPageOutDegree>
     <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45405152</dbpedia-owl:wikiPageRevisionID>
     <dbpedia-owl:wikiPageRevisionLink rdf:resource="http://nl.wikipedia.org/w/index.php?title=Peer_(plant)&amp;oldid=45405152"/>
-    <dcterms:subject rdf:resource="http://nl.dbpedia.org/resource/Categorie:Peer_(vrucht)"/>
-    <dcterms:subject rdf:resource="http://nl.dbpedia.org/resource/Categorie:Rozenfamilie"/>
-    <dcterms:subject rdf:resource="http://nl.dbpedia.org/resource/Categorie:Cultuurgewas"/>
     <foaf:isPrimaryTopicOf rdf:resource="http://nl.wikipedia.org/wiki/Peer_(plant)"/>
-    <prop-nl:afbeelding rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyrus communis .jpg</prop-nl:afbeelding>
     <prop-nl:afbeeldingii rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hedrick  - Doyenne du Comice.jpg</prop-nl:afbeeldingii>
     <prop-nl:afbeeldingiii rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conference pear1.jpg</prop-nl:afbeeldingiii>
     <prop-nl:afbeeldingiiitekst rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conference peren aan de boom</prop-nl:afbeeldingiiitekst>
@@ -4266,6 +4269,7 @@
     <prop-nl:wikiPageUsesTemplate rdf:resource="http://nl.dbpedia.org/resource/Sjabloon:JP"/>
     <prop-nl:wikiPageUsesTemplate rdf:resource="http://nl.dbpedia.org/resource/Sjabloon:KR"/>
     <prop-nl:wikiPageUsesTemplate rdf:resource="http://nl.dbpedia.org/resource/Sjabloon:NL"/>
+-->
   </rdf:Description>
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Pelargonium">
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Species"/>
@@ -7758,21 +7762,26 @@
     <prop-nl:wikiPageUsesTemplate rdf:resource="http://nl.dbpedia.org/resource/Sjabloon:Commons"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Witte_paardenkastanje">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Species"/>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Witte paardenkastanje</rdfs:label>
-    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De witte paardenkastanje (Aesculus hippocastanum) is een snelgroeiende boom uit de zeepboomfamilie (Sapindaceae). De soort komt van nature voor in de Balkan. De soort wordt in andere gematigde streken van de wereld veel aangeplant vanwege de sierwaarde. Deze boom werd rond de 17e eeuw ingevoerd in Noordwest-Europa. Omdat de boom goed bestand is tegen luchtvervuiling wordt de paardenkastanje veel toegepast in openbaar groen. Hij kan 30 m hoog worden, maar is meestal korter.</rdfs:comment>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De witte paardenkastanje (Aesculus hippocastanum) is een snelgroeiende boom uit de zeepboomfamilie (Sapindaceae). De soort komt van nature voor in de Balkan. De soort wordt in andere gematigde streken van de wereld veel aangeplant vanwege de sierwaarde. Deze boom werd rond de 17e eeuw ingevoerd in Noordwest-Europa. Omdat de boom goed bestand is tegen luchtvervuiling wordt de paardenkastanje veel toegepast in openbaar groen. Hij kan 30 m hoog worden, maar is meestal korter. De boom groeit goed op kleigrond of leemhoudende grond, maar hij gedijt ook in andere grondsoorten. De witte paardenkastanje kan tot 250 jaar oud worden.</dbpedia-owl:abstract>
-    <dbpedia-owl:authority rdf:resource="http://nl.dbpedia.org/resource/Carl_Linnaeus"/>
     <dbpedia-owl:classis rdf:resource="http://nl.dbpedia.org/resource/Spermatopsida"/>
     <dbpedia-owl:domain rdf:resource="http://nl.dbpedia.org/resource/Planten"/>
     <dbpedia-owl:family rdf:resource="http://nl.dbpedia.org/resource/Sapindaceae"/>
     <dbpedia-owl:genus rdf:resource="http://nl.dbpedia.org/resource/Aesculus"/>
-    <dbpedia-owl:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Witte paardenkastanje</dbpedia-owl:name>
     <dbpedia-owl:order rdf:resource="http://nl.dbpedia.org/resource/Sapindales"/>
+    <dbpedia-owl:tribus rdf:resource="http://nl.dbpedia.org/resource/Embryophyta"/>
+    <dcterms:subject rdf:resource="http://nl.dbpedia.org/resource/Categorie:Zeepboomfamilie"/>
+    <dcterms:subject rdf:resource="http://nl.dbpedia.org/resource/Categorie:Plant_uit_het_Palearctisch_gebied"/>
+    <dcterms:subject rdf:resource="http://nl.dbpedia.org/resource/Categorie:Boom_(plant)"/>
+    <html:img rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://commons.wikimedia.org/wiki/Special:FilePath/Paardenkastanje2.jpg?width=200</html:img>
+<!--
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De witte paardenkastanje (Aesculus hippocastanum) is een snelgroeiende boom uit de zeepboomfamilie (Sapindaceae). De soort komt van nature voor in de Balkan. De soort wordt in andere gematigde streken van de wereld veel aangeplant vanwege de sierwaarde. Deze boom werd rond de 17e eeuw ingevoerd in Noordwest-Europa. Omdat de boom goed bestand is tegen luchtvervuiling wordt de paardenkastanje veel toegepast in openbaar groen. Hij kan 30 m hoog worden, maar is meestal korter.</rdfs:comment>
+    <dbpedia-owl:authority rdf:resource="http://nl.dbpedia.org/resource/Carl_Linnaeus"/>
+    <dbpedia-owl:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Witte paardenkastanje</dbpedia-owl:name>
     <dbpedia-owl:scientificName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aesculus hippocastanum</dbpedia-owl:scientificName>
     <dbpedia-owl:taxon rdf:resource="http://nl.dbpedia.org/resource/Soort"/>
-    <dbpedia-owl:tribus rdf:resource="http://nl.dbpedia.org/resource/Embryophyta"/>
     <dbpedia-owl:wikiPageEditLink rdf:resource="http://nl.wikipedia.org/w/index.php?title=Witte_paardenkastanje&amp;action=edit"/>
     <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.monumentaltrees.com/nl/fotos-wittepaardekastanje/"/>
     <dbpedia-owl:wikiPageExtracted rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-11T19:19:40Z</dbpedia-owl:wikiPageExtracted>
@@ -7783,11 +7792,7 @@
     <dbpedia-owl:wikiPageOutDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">43</dbpedia-owl:wikiPageOutDegree>
     <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45306638</dbpedia-owl:wikiPageRevisionID>
     <dbpedia-owl:wikiPageRevisionLink rdf:resource="http://nl.wikipedia.org/w/index.php?title=Witte_paardenkastanje&amp;oldid=45306638"/>
-    <dcterms:subject rdf:resource="http://nl.dbpedia.org/resource/Categorie:Zeepboomfamilie"/>
-    <dcterms:subject rdf:resource="http://nl.dbpedia.org/resource/Categorie:Plant_uit_het_Palearctisch_gebied"/>
-    <dcterms:subject rdf:resource="http://nl.dbpedia.org/resource/Categorie:Boom_(plant)"/>
     <foaf:isPrimaryTopicOf rdf:resource="http://nl.wikipedia.org/wiki/Witte_paardenkastanje"/>
-    <prop-nl:afbeelding rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paardenkastanje2.jpg</prop-nl:afbeelding>
     <prop-nl:afbeeldingii rdf:datatype="http://www.w3.org/2001/XMLSchema#string">?????? ?????? 1 VizuIMG 2021.JPG</prop-nl:afbeeldingii>
     <prop-nl:afbeeldingiitekst rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bloeiwijze van de witte paardenkastanje</prop-nl:afbeeldingiitekst>
     <prop-nl:auteur rdf:resource="http://nl.dbpedia.org/resource/Carl_Linnaeus"/>
@@ -7811,6 +7816,7 @@
     <prop-nl:wikiPageUsesTemplate rdf:resource="http://nl.dbpedia.org/resource/Sjabloon:Taxobox"/>
     <prop-nl:wikiPageUsesTemplate rdf:resource="http://nl.dbpedia.org/resource/Sjabloon:Clearleft"/>
     <prop-nl:wikiPageUsesTemplate rdf:resource="http://nl.dbpedia.org/resource/Sjabloon:Commons"/>
+-->
   </rdf:Description>
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Zandraket">
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Species"/>

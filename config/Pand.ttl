@@ -14,15 +14,15 @@ stage:Pand a elmo:Representation;
 	];
 	elmo:fragment [
 		elmo:applies-to "Haagbeuk";
-		html:icon "/images/meidoorn.png";
+		html:icon "/images/haagbeuk.png";
 	];
 	elmo:fragment [
 		elmo:applies-to "Sierpeer";
-		html:icon "/images/meidoorn.png";
+		html:icon "/images/sierpeer.png";
 	];
 	elmo:fragment [
 		elmo:applies-to "Wittepaardekastanje";
-		html:icon "/images/meidoorn.png";
+		html:icon "/images/kastanje.png";
 	];
 	elmo:query '''
 		prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>

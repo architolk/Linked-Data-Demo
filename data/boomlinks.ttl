@@ -14,7 +14,7 @@
 .
 <http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.488D59AA-8F80-42DA-98D6-3C153C2F924A> ns2:subject <http://nl.dbpedia.org/resource/Haagbeuk>
 .
-<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.521B1C98-49DD-45BD-8B7D-254264B2647F> ns2:subject <http://nl.dbpedia.org/resource/Peer>
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.521B1C98-49DD-45BD-8B7D-254264B2647F> ns2:subject <http://nl.dbpedia.org/resource/Peer_(plant)>
 .
 <http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.5340F55C-E207-473D-A241-305179CC7D1C> ns2:subject <http://nl.dbpedia.org/resource/Meidoorn>
 .
@@ -36,20 +36,19 @@
 .
 <http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.BD1966A5-D40E-4C5E-B722-CB639F39D9AC> ns2:subject <http://nl.dbpedia.org/resource/Haagbeuk>
 .
-<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.CA8CEED0-0846-4B21-8357-34C21A361F00> ns2:subject <http://nl.dbpedia.org/resource/Peer>
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.CA8CEED0-0846-4B21-8357-34C21A361F00> ns2:subject <http://nl.dbpedia.org/resource/Peer_(plant)>
 .
 <http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.CB775EDE-549A-40C5-8569-31E91D541F04> ns2:subject <http://nl.dbpedia.org/resource/Haagbeuk>
 .
 <http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.CF55813E-7B79-4C5B-A4F6-42E91A526367> ns2:subject <http://nl.dbpedia.org/resource/Meidoorn>
 .
-<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.E23CACD5-E9F2-4AFB-9AAF-2A6E6D17405A> ns2:subject <http://nl.dbpedia.org/resource/Peer>
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.E23CACD5-E9F2-4AFB-9AAF-2A6E6D17405A> ns2:subject <http://nl.dbpedia.org/resource/Peer_(plant)>
 .
 <http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.E8F5FAEB-4A36-4324-B999-751A7111F198> ns2:subject <http://nl.dbpedia.org/resource/Haagbeuk>
 .
 <http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.EF89B7F5-D5DE-44B4-A1A3-BC3A6BA38062> ns2:subject <http://nl.dbpedia.org/resource/Haagbeuk>
 .
-<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.EFF9BAE2-1032-42AF-B8BD-87EEF14D603B> ns2:subject <http://nl.dbpedia.org/resource/Peer>
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.EFF9BAE2-1032-42AF-B8BD-87EEF14D603B> ns2:subject <http://nl.dbpedia.org/resource/Peer_(plant)>
 .
-<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.FE1DFD6C-A93E-4A69-89C4-4B123450B5DE> ns2:subject <http://nl.dbpedia.org/resource/Peer>
+<http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.FE1DFD6C-A93E-4A69-89C4-4B123450B5DE> ns2:subject <http://nl.dbpedia.org/resource/Peer_(plant)>
 .
-

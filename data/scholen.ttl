@@ -9,6 +9,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix html: <http://www.w3.org/1999/xhtml/vocab#>.
 n4:080F9920AAB56B601AE8E6C3D5E579EE a ogcgs:Geometry, <http://www.opengis.net/ont/gml#Point>;
     ns3:asWKT-RD "POINT (95007.729 464573.374)";
     ogcgs:asWKT "POINT(4.5103326718082 52.166056809236)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
@@ -694,7 +695,8 @@ n1:16AU a ns4:School;
     ns4:plaatsnaam "LEIDEN"^^xsd:string;
     ns4:postcode "2313GG"^^xsd:string;
     ns4:straatnaam "Van Vollenhovenkade"^^xsd:string;
-    rdfs:label "Lorentz"^^xsd:string
+    rdfs:label "Lorentz"^^xsd:string;
+    html:img "/images/lorentz.jpg";
 .
 n1:17MJ a ns4:School;
     ns4:adres n3:0546200000053718;
@@ -719,11 +721,12 @@ n1:17MY a ns4:School;
     ns4:brinNummer "17MY"^^xsd:string;
     ns4:deonominatie "Protestants-Christelijk"^^xsd:string;
     ns4:huisnummer 15;
-    ns4:internetadres "www.roomburg.pcsl.nl"^^xsd:string;
+    ns4:internetadres "www.joppensz.pcsleiden.nl"^^xsd:string;
     ns4:plaatsnaam "LEIDEN"^^xsd:string;
     ns4:postcode "2313GG"^^xsd:string;
     ns4:straatnaam "Van Vollenhovenkade"^^xsd:string;
-    rdfs:label "Basisschool Joppensz"^^xsd:string
+    rdfs:label "Basisschool Joppensz"^^xsd:string;
+    html:img "/images/joppensz.jpg";
 .
 n1:17NV a ns4:School;
     ns4:adres n3:0546200000035551;
@@ -790,7 +793,8 @@ n1:20VB a ns4:School;
     ns4:plaatsnaam "LEIDEN"^^xsd:string;
     ns4:postcode "2313JE"^^xsd:string;
     ns4:straatnaam "Oppenheimstraat"^^xsd:string;
-    rdfs:label "Roomskatholieke Basisschool Sint Joseph-School"^^xsd:string
+    rdfs:label "Roomskatholieke Basisschool Sint Joseph-School"^^xsd:string;
+    html:img "/images/stjoseph.jpg";
 .
 n1:20VD a ns4:School;
     ns4:adres n3:0546200000005930;
@@ -848,5 +852,6 @@ n1:24DH a ns4:School;
     ns4:plaatsnaam "LEIDEN"^^xsd:string;
     ns4:postcode "2313AB"^^xsd:string;
     ns4:straatnaam "Stadhouderslaan"^^xsd:string;
-    rdfs:label "Islamitische Basisschool Er Riseleh"^^xsd:string
+    rdfs:label "Islamitische Basisschool Er Riseleh"^^xsd:string;
+    html:img "/images/ibs.jpg";
 .

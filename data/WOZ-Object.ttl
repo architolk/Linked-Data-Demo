@@ -74,6 +74,7 @@ bagdef:OpenbareRuimte rdf:type owl:Class;
     ns5:representeert n16:OpenbareRuimte
 .
 n13:0546200000019388 rdf:type bagdef:Nummeraanduiding;
+    rdfs:label "2313 HH 1A";
     bagdef:gerelateerdeOpenbareRuimte n12:0546300000001179;
     bagdef:identificatiecode "546200000019388"^^xsd:long;
     bagdef:ingangsdatum "2009-11-11T00:00:00"^^xsd:dateTime;
@@ -96,6 +97,7 @@ n10:0546010000019388
 #    rdf:type ogcgs:Feature;
     rdf:type bagdef:Verblijfsobject;
     rdfs:label "Verblijfsobject 0546010000019388"^^xsd:string;
+    html:img "/images/verblijfsobject.png";
     bagdef:gebruiksdoel "gezondheidszorgfunctie"^^xsd:string;
     bagdef:hoofdadres n13:0546200000019388;
     bagdef:identificatiecode "546010000019388"^^xsd:long;
@@ -112,6 +114,7 @@ n10:0546010000019388
 n11:0546100000042977
 #    rdf:type ogcgs:Feature;
     rdf:type bagdef:Pand;
+    html:img "/images/pand.png";
     rdfs:label "Pand 0546100000042977"^^xsd:string;
     bagdef:identificatiecode "546100000042977"^^xsd:long;
     bagdef:einddatum "2013-05-06T00:00:00"^^xsd:dateTime;

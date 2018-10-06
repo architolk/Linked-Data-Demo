@@ -11,7 +11,7 @@
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.CA8CEED0-0846-4B21-8357-34C21A361F00">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Sierpeer #1</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
   <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
@@ -26,7 +26,7 @@
   <geo:geometry>POINT(4.4987664 52.150635)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.CA8CEED0-0846-4B21-8357-34C21A361F00">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Sierpeer #2</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -40,7 +40,7 @@
   <geo:geometry>POINT(4.4987664 52.150635)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.39B35C00-CC91-4840-83CB-03236B8BA493">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #1</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -54,7 +54,7 @@
   <geo:geometry>POINT(4.498637 52.152157)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.39B35C00-CC91-4840-83CB-03236B8BA493">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #2</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -68,7 +68,7 @@
   <geo:geometry>POINT(4.498637 52.152157)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.64BBD65F-FC60-4376-BF7E-0BC84D3890F0">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Meidoorn #1</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -82,7 +82,7 @@
   <geo:geometry>POINT(4.49834 52.151577)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.64BBD65F-FC60-4376-BF7E-0BC84D3890F0">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Meidoorn #2</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -96,7 +96,7 @@
   <geo:geometry>POINT(4.49834 52.151577)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.521B1C98-49DD-45BD-8B7D-254264B2647F">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Sierpeer #3</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -110,7 +110,7 @@
   <geo:geometry>POINT(4.4989047 52.150696)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.521B1C98-49DD-45BD-8B7D-254264B2647F">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Sierpeer #4</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -124,7 +124,7 @@
   <geo:geometry>POINT(4.4989047 52.150696)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.488D59AA-8F80-42DA-98D6-3C153C2F924A">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #3</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -138,7 +138,7 @@
   <geo:geometry>POINT(4.4980183 52.151554)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.488D59AA-8F80-42DA-98D6-3C153C2F924A">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #4</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -152,7 +152,7 @@
   <geo:geometry>POINT(4.4980183 52.151554)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.63DA8F0B-0686-4097-BEFB-DD7EBB3BD6AD">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #5</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -166,7 +166,7 @@
   <geo:geometry>POINT(4.497656 52.151203)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.63DA8F0B-0686-4097-BEFB-DD7EBB3BD6AD">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #6</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -180,7 +180,7 @@
   <geo:geometry>POINT(4.497656 52.151203)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.77D12C28-993D-4105-8D49-DBDC571B7F42">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Witte paardekastanje #1</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -194,7 +194,7 @@
   <geo:geometry>POINT(4.4983644 52.152332)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.77D12C28-993D-4105-8D49-DBDC571B7F42">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Witte paardekastanje #2</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -208,7 +208,7 @@
   <geo:geometry>POINT(4.4983644 52.152332)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.E23CACD5-E9F2-4AFB-9AAF-2A6E6D17405A">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Sierpeer #5</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -222,7 +222,7 @@
   <geo:geometry>POINT(4.4991007 52.15091)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.E23CACD5-E9F2-4AFB-9AAF-2A6E6D17405A">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Sierpeer #6</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -236,7 +236,7 @@
   <geo:geometry>POINT(4.4991007 52.15091)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.EFF9BAE2-1032-42AF-B8BD-87EEF14D603B">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Sierpeer #7</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -250,7 +250,7 @@
   <geo:geometry>POINT(4.4990406 52.15076)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.EFF9BAE2-1032-42AF-B8BD-87EEF14D603B">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Sierpeer #8</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -264,7 +264,7 @@
   <geo:geometry>POINT(4.4990406 52.15076)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.833037DA-97C7-47DE-8157-24296F4560FC">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #7</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -278,7 +278,7 @@
   <geo:geometry>POINT(4.498728 52.152298)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.833037DA-97C7-47DE-8157-24296F4560FC">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #8</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -292,7 +292,7 @@
   <geo:geometry>POINT(4.498728 52.152298)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.66B404F9-C3BE-4D89-8B16-D39737539B5B">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Meidoorn #3</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -306,7 +306,7 @@
   <geo:geometry>POINT(4.499085 52.151283)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.66B404F9-C3BE-4D89-8B16-D39737539B5B">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Meidoorn #4</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -320,7 +320,7 @@
   <geo:geometry>POINT(4.499085 52.151283)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.5340F55C-E207-473D-A241-305179CC7D1C">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Meidoorn #5</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -334,7 +334,7 @@
   <geo:geometry>POINT(4.499307 52.151196)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.5340F55C-E207-473D-A241-305179CC7D1C">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Meidoorn #6</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -348,7 +348,7 @@
   <geo:geometry>POINT(4.499307 52.151196)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.B78D15C7-5AC3-4CF0-B9B2-C27F782E323C">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #9</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -362,7 +362,7 @@
   <geo:geometry>POINT(4.498337 52.151855)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.B78D15C7-5AC3-4CF0-B9B2-C27F782E323C">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #10</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -376,7 +376,7 @@
   <geo:geometry>POINT(4.498337 52.151855)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.29C7953D-CF33-440B-B7E7-5ED628DDB5EF">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #11</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -390,7 +390,7 @@
   <geo:geometry>POINT(4.4984355 52.15195)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.29C7953D-CF33-440B-B7E7-5ED628DDB5EF">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #12</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -404,7 +404,7 @@
   <geo:geometry>POINT(4.4984355 52.15195)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.CF55813E-7B79-4C5B-A4F6-42E91A526367">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Meidoorn #7</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -418,7 +418,7 @@
   <geo:geometry>POINT(4.4981756 52.15164)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.CF55813E-7B79-4C5B-A4F6-42E91A526367">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Meidoorn #8</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -432,7 +432,7 @@
   <geo:geometry>POINT(4.4981756 52.15164)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.7DD3D2D1-6038-4E41-AC89-717ED5852311">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Meidoorn #9</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -446,7 +446,7 @@
   <geo:geometry>POINT(4.4993153 52.151302)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.7DD3D2D1-6038-4E41-AC89-717ED5852311">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Meidoorn #10</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -460,7 +460,7 @@
   <geo:geometry>POINT(4.4993153 52.151302)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.FE1DFD6C-A93E-4A69-89C4-4B123450B5DE">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Sierpeer #9</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -474,7 +474,7 @@
   <geo:geometry>POINT(4.498589 52.150555)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.FE1DFD6C-A93E-4A69-89C4-4B123450B5DE">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Sierpeer #10</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -488,7 +488,7 @@
   <geo:geometry>POINT(4.498589 52.150555)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.EF89B7F5-D5DE-44B4-A1A3-BC3A6BA38062">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #13</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -502,7 +502,7 @@
   <geo:geometry>POINT(4.497467 52.15101)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.EF89B7F5-D5DE-44B4-A1A3-BC3A6BA38062">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #14</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -516,7 +516,7 @@
   <geo:geometry>POINT(4.497467 52.15101)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.AA8B5866-7913-441A-A895-1998B46F9291">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #15</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -530,7 +530,7 @@
   <geo:geometry>POINT(4.497563 52.151104)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.AA8B5866-7913-441A-A895-1998B46F9291">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #16</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -544,7 +544,7 @@
   <geo:geometry>POINT(4.497563 52.151104)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.E8F5FAEB-4A36-4324-B999-751A7111F198">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #17</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -558,7 +558,7 @@
   <geo:geometry>POINT(4.497759 52.151306)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.E8F5FAEB-4A36-4324-B999-751A7111F198">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #18</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -572,7 +572,7 @@
   <geo:geometry>POINT(4.497759 52.151306)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.BD1966A5-D40E-4C5E-B722-CB639F39D9AC">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #19</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -586,7 +586,7 @@
   <geo:geometry>POINT(4.4978604 52.1514)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.BD1966A5-D40E-4C5E-B722-CB639F39D9AC">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #20</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -600,7 +600,7 @@
   <geo:geometry>POINT(4.4978604 52.1514)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.39094C0B-9EA9-45FB-8068-D477F5314B3A">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Meidoorn #11</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -614,7 +614,7 @@
   <geo:geometry>POINT(4.4986696 52.151447)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.39094C0B-9EA9-45FB-8068-D477F5314B3A">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Meidoorn #12</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -628,7 +628,7 @@
   <geo:geometry>POINT(4.4986696 52.151447)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.CB775EDE-549A-40C5-8569-31E91D541F04">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #21</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -642,7 +642,7 @@
   <geo:geometry>POINT(4.498545 52.152058)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.CB775EDE-549A-40C5-8569-31E91D541F04">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Haagbeuk #22</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -656,7 +656,7 @@
   <geo:geometry>POINT(4.498545 52.152058)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.440301A8-39E1-40EA-BB58-3ACB9AB68CD2">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Meidoorn #13</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>
@@ -670,7 +670,7 @@
   <geo:geometry>POINT(4.4985085 52.151512)</geo:geometry>
  </bor:Boom>
  <bor:Boom rdf:about="http://bgtld-test.geostandaarden.nl/bor/id/bomen/G0546.440301A8-39E1-40EA-BB58-3ACB9AB68CD2">
-  <rdfs:label>Straat- / laanboom</rdfs:label>
+  <rdfs:label>Meidoorn #14</rdfs:label>
   <bor:vlakbijPand rdf:resource="http://bag.kadaster.nl/id/pand/0546100000042977"/>
 <bor:std_categorie>Straat- / laanboom</bor:std_categorie>
   <bor:std_boomtype>Straat- / laanboom</bor:std_boomtype>

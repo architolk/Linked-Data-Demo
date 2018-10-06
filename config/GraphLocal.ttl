@@ -8,6 +8,8 @@
 @prefix som: <http://www.kenniskluis.nl/som/def#>.
 @prefix bag: <http://bag.kadaster.nl/def#>.
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix duo: <http://localhost:8080/demo/def/duo#>.
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/>.
 
 stage:LocalGraph	a	elmo:Representation;
 	elmo:url-pattern	"/query/local/graph$";
@@ -42,8 +44,17 @@ stage:LocalGraph	a	elmo:Representation;
 		''';
 	];
 	elmo:fragment [
-		elmo:applies-to "Wikipedia-data";
+		elmo:applies-to "DUO-data";
 		elmo:index "7";
+		html:stylesheet '''
+			fill: orange;
+			fill-opacity: .3;
+			stroke: #666;
+		''';
+	];
+	elmo:fragment [
+		elmo:applies-to "Wikipedia-data";
+		elmo:index "8";
 		html:stylesheet '''
 			fill: magenta;
 			fill-opacity: .3;
@@ -229,6 +240,42 @@ stage:LocalGraph	a	elmo:Representation;
 		elmo:applies-to bgt:std_boomhoogte;
 		rdfs:label "Boomhoogte";
 	];
+	elmo:fragment [
+		elmo:applies-to duo:straatnaam;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:applies-to duo:huisnummer;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:applies-to duo:plaatsnaam;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:applies-to duo:postcode;
+		elmo:appearance elmo:HiddenAppearance;
+	];
+	elmo:fragment [
+		elmo:index "1";
+		elmo:applies-to duo:brinNummer;
+		rdfs:label "BRIN nummer";
+	];
+	elmo:fragment [
+		elmo:index "2";
+		elmo:applies-to duo:deonominatie;
+		rdfs:label "Soort school";
+	];
+	elmo:fragment [
+		elmo:index "3";
+		elmo:applies-to duo:internetadres;
+		rdfs:label "Website";
+	];
+	elmo:fragment [
+		elmo:index "1";
+		elmo:applies-to dbpedia-owl:abstract;
+		rdfs:label "Omschrijving";
+	];
 	elmo:query '''
 		prefix elmo: <http://bp4mc2.org/elmo/def#>
 		prefix html: <http://www.w3.org/1999/xhtml/vocab#>
@@ -253,6 +300,7 @@ stage:LocalGraph	a	elmo:Representation;
 			<http://bag.kadaster.nl/def#Woonplaats> elmo:name "BAG-data".
 			<http://bag.kadaster.nl/def#Nummeraanduiding> elmo:name "BAG-data".
 			<http://bgtld-test.geostandaarden.nl/bor/def#Boom> elmo:name "BGT-data".
+			<http://localhost:8080/demo/def/duo#School> elmo:name "DUO-data".
 			<http://dbpedia.org/ontology/Species> elmo:name "Wikipedia-data".
 		}
 		where {
